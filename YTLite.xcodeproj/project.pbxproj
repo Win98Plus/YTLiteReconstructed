@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000010000000000000001 /* NSBundle+YTLite.m in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000001 /* NSBundle+YTLite.m */; };
+		A10000020000000000000001 /* YTLUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = A20000020000000000000001 /* YTLUserDefaults.m */; };
+		A10000030000000000000001 /* Dvbug.m in Sources */ = {isa = PBXBuildFile; fileRef = A20000030000000000000001 /* Dvbug.m */; };
+		A10000040000000000000001 /* SponsorBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = A20000040000000000000001 /* SponsorBlock.m */; };
+		A10000050000000000000001 /* YTPDiscordRPC.m in Sources */ = {isa = PBXBuildFile; fileRef = A20000050000000000000001 /* YTPDiscordRPC.m */; };
+		A10000060000000000000001 /* YTLiteComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = A20000060000000000000001 /* YTLiteComponents.m */; };
+		A10000070000000000000001 /* SubstrateFallback.m in Sources */ = {isa = PBXBuildFile; fileRef = A20000070000000000000001 /* SubstrateFallback.m */; };
+		A10000080000000000000001 /* DiscordRPC.x.m in Sources */ = {isa = PBXBuildFile; fileRef = A20000080000000000000001 /* DiscordRPC.x.m */; };
+		A10000090000000000000001 /* IconsAndFixes.x.m in Sources */ = {isa = PBXBuildFile; fileRef = A20000090000000000000001 /* IconsAndFixes.x.m */; };
+		A100000A0000000000000001 /* Settings.x.m in Sources */ = {isa = PBXBuildFile; fileRef = A200000A0000000000000001 /* Settings.x.m */; };
+		A100000B0000000000000001 /* Sideloading.x.m in Sources */ = {isa = PBXBuildFile; fileRef = A200000B0000000000000001 /* Sideloading.x.m */; };
+		A100000C0000000000000001 /* SponsorBlock.x.m in Sources */ = {isa = PBXBuildFile; fileRef = A200000C0000000000000001 /* SponsorBlock.x.m */; };
+		A100000D0000000000000001 /* YTNativeShare.x.m in Sources */ = {isa = PBXBuildFile; fileRef = A200000D0000000000000001 /* YTNativeShare.x.m */; };
+		A100000E0000000000000001 /* YTLite.x.m in Sources */ = {isa = PBXBuildFile; fileRef = A200000E0000000000000001 /* YTLite.x.m */; };
+		A100000F0000000000000001 /* YTLite.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A200000F0000000000000001 /* YTLite.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000001 /* YTLite.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = YTLite.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000010000000000000001 /* NSBundle+YTLite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Utils/NSBundle+YTLite.m"; sourceTree = "<group>"; };
+		A20000020000000000000001 /* YTLUserDefaults.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Utils/YTLUserDefaults.m"; sourceTree = "<group>"; };
+		A20000030000000000000001 /* Dvbug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Utils/Dvbug.m"; sourceTree = "<group>"; };
+		A20000040000000000000001 /* SponsorBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Utils/SponsorBlock.m"; sourceTree = "<group>"; };
+		A20000050000000000000001 /* YTPDiscordRPC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Utils/YTPDiscordRPC.m"; sourceTree = "<group>"; };
+		A20000060000000000000001 /* YTLiteComponents.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Utils/YTLiteComponents.m"; sourceTree = "<group>"; };
+		A20000070000000000000001 /* SubstrateFallback.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Xcode/SubstrateFallback.m"; sourceTree = "<group>"; };
+		A20000080000000000000001 /* DiscordRPC.x.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Xcode/Generated/DiscordRPC.x.m"; sourceTree = "<group>"; };
+		A20000090000000000000001 /* IconsAndFixes.x.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Xcode/Generated/IconsAndFixes.x.m"; sourceTree = "<group>"; };
+		A200000A0000000000000001 /* Settings.x.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Xcode/Generated/Settings.x.m"; sourceTree = "<group>"; };
+		A200000B0000000000000001 /* Sideloading.x.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Xcode/Generated/Sideloading.x.m"; sourceTree = "<group>"; };
+		A200000C0000000000000001 /* SponsorBlock.x.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Xcode/Generated/SponsorBlock.x.m"; sourceTree = "<group>"; };
+		A200000D0000000000000001 /* YTNativeShare.x.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Xcode/Generated/YTNativeShare.x.m"; sourceTree = "<group>"; };
+		A200000E0000000000000001 /* YTLite.x.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Xcode/Generated/YTLite.x.m"; sourceTree = "<group>"; };
+		A200000F0000000000000001 /* YTLite.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "layout/Library/Application Support/YTLite.bundle"; sourceTree = "<group>"; };
+		A20000100000000000000001 /* YTLite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Headers/YTLite.h"; sourceTree = "<group>"; };
+		A20000110000000000000001 /* YTLiteClasses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Headers/YTLiteClasses.h"; sourceTree = "<group>"; };
+		A20000120000000000000001 /* YouTubeHeaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Headers/YouTubeHeaders.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		A30000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A20000100000000000000001 /* YTLite.h */,
+				A20000110000000000000001 /* YTLiteClasses.h */,
+				A20000120000000000000001 /* YouTubeHeaders.h */,
+				A20000010000000000000001 /* NSBundle+YTLite.m */,
+				A20000020000000000000001 /* YTLUserDefaults.m */,
+				A20000030000000000000001 /* Dvbug.m */,
+				A20000040000000000000001 /* SponsorBlock.m */,
+				A20000050000000000000001 /* YTPDiscordRPC.m */,
+				A20000060000000000000001 /* YTLiteComponents.m */,
+				A20000070000000000000001 /* SubstrateFallback.m */,
+				A20000080000000000000001 /* DiscordRPC.x.m */,
+				A20000090000000000000001 /* IconsAndFixes.x.m */,
+				A200000A0000000000000001 /* Settings.x.m */,
+				A200000B0000000000000001 /* Sideloading.x.m */,
+				A200000C0000000000000001 /* SponsorBlock.x.m */,
+				A200000D0000000000000001 /* YTNativeShare.x.m */,
+				A200000E0000000000000001 /* YTLite.x.m */,
+				A200000F0000000000000001 /* YTLite.bundle */,
+				A20000000000000000000001 /* YTLite.dylib */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A40000000000000000000001 /* YTLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A70000010000000000000001 /* Build configuration list for PBXNativeTarget "YTLite" */;
+			buildPhases = (
+				A50000000000000000000001 /* ShellScript: Preprocess Logos (.x) */,
+				A50000010000000000000001 /* Sources */,
+				A50000020000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YTLite;
+			productName = YTLite;
+			productReference = A20000000000000000000001 /* YTLite.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A60000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = A70000000000000000000001 /* Build configuration list for PBXProject "YTLite" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				vi,
+				ru,
+				es,
+				fr,
+				it,
+				ja,
+				ko,
+				pl,
+				tr,
+				ar,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = A30000000000000000000001;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A40000000000000000000001 /* YTLite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A50000020000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100000F0000000000000001 /* YTLite.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A50000000000000000000001 /* ShellScript: Preprocess Logos (.x) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Preprocess Logos (.x)";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = ""${PROJECT_DIR}/Xcode/build_logos.sh"
+";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A50000010000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000010000000000000001 /* NSBundle+YTLite.m in Sources */,
+				A10000020000000000000001 /* YTLUserDefaults.m in Sources */,
+				A10000030000000000000001 /* Dvbug.m in Sources */,
+				A10000040000000000000001 /* SponsorBlock.m in Sources */,
+				A10000050000000000000001 /* YTPDiscordRPC.m in Sources */,
+				A10000060000000000000001 /* YTLiteComponents.m in Sources */,
+				A10000070000000000000001 /* SubstrateFallback.m in Sources */,
+				A10000080000000000000001 /* DiscordRPC.x.m in Sources */,
+				A10000090000000000000001 /* IconsAndFixes.x.m in Sources */,
+				A100000A0000000000000001 /* Settings.x.m in Sources */,
+				A100000B0000000000000001 /* Sideloading.x.m in Sources */,
+				A100000C0000000000000001 /* SponsorBlock.x.m in Sources */,
+				A100000D0000000000000001 /* YTNativeShare.x.m in Sources */,
+				A100000E0000000000000001 /* YTLite.x.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A80000000000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 5.2.2;
+				EXECUTABLE_PREFIX = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"TWEAK_VERSION=\"5.2.2\"",
+					"LIVECONTAINER=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Headers",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path",
+				);
+				MACH_O_TYPE = mh_dylib;
+				OTHER_LDFLAGS = (
+					"-Wl,-undefined,dynamic_lookup",
+					"-framework",
+					"UIKit",
+					"-framework",
+					"Foundation",
+					"-framework",
+					"AVFoundation",
+					"-framework",
+					"AVKit",
+					"-framework",
+					"MediaPlayer",
+					"-framework",
+					"Photos",
+					"-framework",
+					"PhotosUI",
+					"-framework",
+					"WebKit",
+					"-framework",
+					"Security",
+					"-framework",
+					"SystemConfiguration",
+					"-framework",
+					"AuthenticationServices",
+					"-framework",
+					"QuartzCore",
+					"-framework",
+					"CoreGraphics",
+					"-lz",
+					"-lbz2",
+					"-liconv",
+					"-lc++",
+				);
+				PRODUCT_NAME = YTLite;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = iphoneos;
+				ARCHS = arm64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A70000000000000000000001 /* Build configuration list for PBXProject "YTLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80000000000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A70000010000000000000001 /* Build configuration list for PBXNativeTarget "YTLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80000000000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A60000000000000000000001 /* Project object */;
+}

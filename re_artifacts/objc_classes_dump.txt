@@ -1,0 +1,1261 @@
+Segment 1 (__DATA_CONST): ptr_fmt=2 page_size=16384 page_count=56
+Segment 2 (__DATA): ptr_fmt=2 page_size=16384 page_count=58
+Total bound symbols: 8248, total rebased pointers: 69870
+
+=== OBJC CLASSES (58) ===
+Class [0] InitWorkaround : _OBJC_CLASS_$_UIViewController (methods: -4 +0, ivars: 1)
+  - viewDidLoad (v16@0:8) @ 0x14764
+  - completion (@?16@0:8) @ 0x14bc4
+  - setCompletion: (v24@0:8@?16) @ 0x14bd4
+  - .cxx_destruct (v16@0:8) @ 0x14c08
+  ivar _completion : @? (off=0x8, size=8)
+Class [1] WelcomeVC : _OBJC_CLASS_$_UIViewController (methods: -13 +0, ivars: 2)
+  - viewDidLoad (v16@0:8) @ 0x3bd9c
+  - thanksButtonTapped (v16@0:8) @ 0x3f2d0
+  - contactsButtonTapped: (v24@0:8@16) @ 0x3f4c8
+  - imageNamed: (@24@0:8@16) @ 0x426f4
+  - tableView:heightForRowAtIndexPath: (d32@0:8@16@24) @ 0x4278c
+  - numberOfSectionsInTableView: (q24@0:8@16) @ 0x4279c
+  - tableView:numberOfRowsInSection: (q32@0:8@16q24) @ 0x427a4
+  - tableView:willDisplayCell:forRowAtIndexPath: (v40@0:8@16@24@32) @ 0x427bc
+  - tableView:cellForRowAtIndexPath: (@32@0:8@16@24) @ 0x427f8
+  - tableView:shouldHighlightRowAtIndexPath: (B32@0:8@16@24) @ 0x42eec
+  - showAlertWithTitle:imageName: (v32@0:8@16@24) @ 0x42ef4
+  - cellImageWithName: (@24@0:8@16) @ 0x43c74
+  - .cxx_destruct (v16@0:8) @ 0x43ef8
+  ivar _tableView : @"UITableView" (off=0x8, size=8)
+  ivar _settingsData : @"NSArray" (off=0x10, size=8)
+Class [2] DownloadMenuHelper : _OBJC_CLASS_$_NSObject (methods: -24 +2, ivars: 0)
+  + showDownloadSheetShorts:withSender: (v32@0:8@16@24) @ 0xf53fc
+  + showDownloadSheet:withSender: (v32@0:8@16@24) @ 0xf7c6c
+  - showVideoSheet:withSender: (v32@0:8@16@24) @ 0xfb194
+  - showImagesSheet:withSender: (v32@0:8@16@24) @ 0xfd1d4
+  - showInformationSheet:withSender: (v32@0:8@16@24) @ 0xfe428
+  - showExtPlayerSheet:withSender: (v32@0:8@16@24) @ 0x100a74
+  - getVideoFormatsArray:isShorts: (@28@0:8@16B24) @ 0x102a00
+  - getAudioFormatsArray: (@24@0:8@16) @ 0x103338
+  - getBestAudioFormat:playerVC: (@32@0:8@16@24) @ 0x1039fc
+  - getDefaultAudioTrack: (@24@0:8@16) @ 0x104218
+  - getEnglishAudioTrack: (@24@0:8@16) @ 0x10451c
+  - detailForMimeType: (@24@0:8@16) @ 0x104924
+  - getResoForQuality: (q24@0:8@16) @ 0x104e10
+  - downloadVideoWithFormat:withAudioFormats:fileName:extension:videoID:playerVC:sender: (v72@0:8@16@24@32@40@48@56@64) @ 0x104f2c
+  - downloadVideoWithFormat:audioFormat:fileName:extension:videoID:playerVC:sender: (v72@0:8@16@24@32@40@48@56@64) @ 0x10618c
+  - downloadVideoWithUrl:audioUrl:fileName:extension:videoID:videoSize:audioSize:duration:captions:playerVC: (v96@0:8@16@24@32@40@48Q56Q64Q72@80@88) @ 0x1065cc
+  - getThumbnail: (v24@0:8@16) @ 0x1069c0
+  - checkSpaceAvailabilityForMedia:completion: (v32@0:8q16@?24) @ 0x107364
+  - showAudioTrackSelector:sender:playerVC:completion: (v48@0:8@16@24@32@?40) @ 0x107844
+  - hasCaptions: (B24@0:8@16) @ 0x108c58
+  - showTranscriptSheet:withSender: (v32@0:8@16@24) @ 0x1093ec
+  - showCaptionsSheet:withSender: (v32@0:8@16@24) @ 0x10a2d4
+  - captionsForDownloading: (@24@0:8@16) @ 0x10b290
+  - titleForCaption: (@24@0:8@16) @ 0x10ba6c
+  - getCaptionsUrlSheet:sender:completion: (v40@0:8@16@24@?32) @ 0x10c030
+  - shareSRT:sourceView: (v32@0:8@16@24) @ 0x10d350
+Class [3] YTPTableViewCell : _OBJC_CLASS_$_UITableViewCell (methods: -2 +0, ivars: 0)
+  - setSelected:animated: (v24@0:8B16B20) @ 0x114d18
+  - initWithStyle:reuseIdentifier: (@32@0:8q16@24) @ 0x114f74
+Class [4] DVNPickerView : _OBJC_CLASS_$_UIPickerView (methods: -1 +0, ivars: 0)
+  - layoutSubviews (v16@0:8) @ 0x115970
+Class [5] DVNTableViewController : _OBJC_CLASS_$_UITableViewController (methods: -73 +0, ivars: 6)
+  - initWithModel:defaults: (@32@0:8@16@24) @ 0x115d2c
+  - loadView (v16@0:8) @ 0x116098
+  - viewDidLoad (v16@0:8) @ 0x116318
+  - viewWillAppear: (v20@0:8B16) @ 0x117930
+  - traitCollectionDidChange: (v24@0:8@16) @ 0x1179a4
+  - searchBarSearchButtonClicked: (v24@0:8@16) @ 0x117aa0
+  - _removeSearchFieldCornerRadius: (v24@0:8@16) @ 0x117ab0
+  - _performSearch: (v24@0:8@16) @ 0x117e00
+  - searchBar:textDidChange: (v32@0:8@16@24) @ 0x1187f0
+  - searchBarCancelButtonClicked: (v24@0:8@16) @ 0x118854
+  - searchBarTextDidBeginEditing: (v24@0:8@16) @ 0x1188cc
+  - searchBarTextDidEndEditing: (v24@0:8@16) @ 0x118cd8
+  - _searchClearTapped: (v24@0:8@16) @ 0x118da4
+  - navigateToCell: (v24@0:8@16) @ 0x118e3c
+  - cellExistsInModel:target: (B32@0:8@16@24) @ 0x11970c
+  - highlightRowAtIndexPath: (v24@0:8@16) @ 0x119d44
+  - viewDidAppear: (v20@0:8B16) @ 0x119fe4
+  - pushController:withTitle: (v32@0:8@16@24) @ 0x11a0fc
+  - addDismissButton: (v20@0:8B16) @ 0x11a868
+  - closeButtonTapped (v16@0:8) @ 0x11a924
+  - addLeftBarItem:image:handler: (v40@0:8@16@24@?32) @ 0x11a960
+  - addRightBarItem:image:handler: (v40@0:8@16@24@?32) @ 0x11ab98
+  - _barButtonTriggered: (v24@0:8@16) @ 0x11adfc
+  - setupThanksHeart (v16@0:8) @ 0x11af8c
+  - tableView:heightForRowAtIndexPath: (d32@0:8@16@24) @ 0x11b640
+  - tableView:titleForHeaderInSection: (@32@0:8@16q24) @ 0x11b650
+  - tableView:titleForFooterInSection: (@32@0:8@16q24) @ 0x11b744
+  - tableView:willDisplayHeaderView:forSection: (v40@0:8@16@24q32) @ 0x11b838
+  - tableView:willDisplayFooterView:forSection: (v40@0:8@16@24q32) @ 0x11bd5c
+  - tableView:heightForFooterInSection: (d32@0:8@16q24) @ 0x11bf6c
+  - numberOfSectionsInTableView: (q24@0:8@16) @ 0x11c13c
+  - tableView:numberOfRowsInSection: (q32@0:8@16q24) @ 0x11c1f8
+  - _cellForIndexPath: (@24@0:8@16) @ 0x11c330
+  - tableView:cellForRowAtIndexPath: (@32@0:8@16@24) @ 0x11c4ec
+  - tableView:didSelectRowAtIndexPath: (v32@0:8@16@24) @ 0x11eb30
+  - formatSliderValue:format: (@32@0:8d16q24) @ 0x11fba8
+  - pickerView:viewForRow:forComponent:reusingView: (@48@0:8@16q24q32@40) @ 0x11fea0
+  - numberOfComponentsInPickerView: (q24@0:8@16) @ 0x1200b0
+  - pickerView:numberOfRowsInComponent: (q32@0:8@16q24) @ 0x1200b8
+  - pickerView:didSelectRow:inComponent: (v40@0:8@16q24q32) @ 0x120128
+  - headerImage: (@24@0:8@16) @ 0x1202f8
+  - iconImage:mode:size: (@40@0:8@16q24d32) @ 0x12054c
+  - accessoryImage: (@24@0:8@16) @ 0x1207bc
+  - _cellForTag: (@24@0:8q16) @ 0x120a0c
+  - _cellsForSection: (@24@0:8@16) @ 0x120b60
+  - switchForKey: (@24@0:8@16) @ 0x120c70
+  - toggleSwitch: (v24@0:8@16) @ 0x120ef0
+  - setSegment: (v24@0:8@16) @ 0x121048
+  - sliderValueChanged: (v24@0:8@16) @ 0x1211a0
+  - stepperValueChanged: (v24@0:8@16) @ 0x1214c4
+  - colorWellTap: (v24@0:8@16) @ 0x121720
+  - textFieldShouldReturn: (B24@0:8@16) @ 0x1218c0
+  - titleValue: (v24@0:8@16) @ 0x121920
+  - segmentForItems:isCompact: (@28@0:8@16B24) @ 0x121c98
+  - sliderWithKey:min:max: (@40@0:8@16d24d32) @ 0x122218
+  - timePickerForCell:indexPath: (@32@0:8@16@24) @ 0x122560
+  - stepperForCell:indexPath: (@32@0:8@16@24) @ 0x12275c
+  - stepperLabelForCell: (@24@0:8@16) @ 0x122950
+  - colorWellForKey:title: (@32@0:8@16@24) @ 0x122cac
+  - textFieldForCell: (@24@0:8@16) @ 0x122e20
+  - editorForIndexPath: (v24@0:8@16) @ 0x1230c4
+  - menuButtonWithTitle:array:key: (@40@0:8@16@24@32) @ 0x123ea4
+  - systemImage:withSize: (@32@0:8@16d24) @ 0x1249b4
+  - isRTL (B16@0:8) @ 0x124c1c
+  - _reloadSections (v16@0:8) @ 0x124c88
+  - dealloc (v16@0:8) @ 0x124ce4
+  - model (@16@0:8) @ 0x124d74
+  - setModel: (v24@0:8@16) @ 0x124d84
+  - defaults (@16@0:8) @ 0x124dc0
+  - setDefaults: (v24@0:8@16) @ 0x124dd0
+  - pendingScrollCell (@16@0:8) @ 0x124e0c
+  - setPendingScrollCell: (v24@0:8@16) @ 0x124e1c
+  - .cxx_destruct (v16@0:8) @ 0x124e58
+  ivar _searchResults : @"NSArray" (off=0x8, size=8)
+  ivar _searchBar : @"UISearchBar" (off=0x10, size=8)
+  ivar _isSearching : B (off=0x18, size=1)
+  ivar _model : @"DVNTableModel" (off=0x20, size=8)
+  ivar _defaults : @"NSUserDefaults" (off=0x28, size=8)
+  ivar _pendingScrollCell : @"DVNCell" (off=0x30, size=8)
+Class [6] TabbarVC : DVNTableViewController (methods: -24 +0, ivars: 7)
+  - init (@16@0:8) @ 0x12e3a8
+  - initForSettings: (@20@0:8B16) @ 0x12e3b8
+  - loadView (v16@0:8) @ 0x1305c0
+  - closeButtonTapped (v16@0:8) @ 0x130828
+  - initTabs (v16@0:8) @ 0x13083c
+  - saveTabsOrder (v16@0:8) @ 0x130f70
+  - tableView:titleForHeaderInSection: (@32@0:8@16q24) @ 0x13176c
+  - tableView:titleForFooterInSection: (@32@0:8@16q24) @ 0x131cec
+  - numberOfSectionsInTableView: (q24@0:8@16) @ 0x131f44
+  - tableView:numberOfRowsInSection: (q32@0:8@16q24) @ 0x131f5c
+  - tableView:cellForRowAtIndexPath: (@32@0:8@16@24) @ 0x131fb8
+  - iconImageNamed: (@24@0:8@16) @ 0x132fe4
+  - tableView:didSelectRowAtIndexPath: (v32@0:8@16@24) @ 0x133264
+  - switchForKey: (@24@0:8@16) @ 0x1338e0
+  - toggleSwitch: (v24@0:8@16) @ 0x133b74
+  - segmentForItems: (@24@0:8@16) @ 0x133fdc
+  - setSegment: (v24@0:8@16) @ 0x134798
+  - tableView:canEditRowAtIndexPath: (B32@0:8@16@24) @ 0x134ba4
+  - tableView:canMoveRowAtIndexPath: (B32@0:8@16@24) @ 0x134cb4
+  - tableView:targetIndexPathForMoveFromRowAtIndexPath:toProposedIndexPath: (@40@0:8@16@24@32) @ 0x134d10
+  - tableView:moveRowAtIndexPath:toIndexPath: (v40@0:8@16@24@32) @ 0x134d90
+  - tableView:editingStyleForRowAtIndexPath: (q32@0:8@16@24) @ 0x134f34
+  - tableView:commitEditingStyle:forRowAtIndexPath: (v40@0:8@16q24@32) @ 0x135014
+  - .cxx_destruct (v16@0:8) @ 0x135d60
+  ivar _isSettings : B (off=0x8, size=1)
+  ivar _sections : @"NSArray" (off=0x10, size=8)
+  ivar _tabs : @"NSArray" (off=0x18, size=8)
+  ivar _startup : @"NSArray" (off=0x20, size=8)
+  ivar _tabbar : @"NSArray" (off=0x28, size=8)
+  ivar _activeTabs : @"NSMutableArray" (off=0x30, size=8)
+  ivar _inactiveTabs : @"NSMutableArray" (off=0x38, size=8)
+Class [7] YTPSettingsBuilder : _OBJC_CLASS_$_NSObject (methods: -29 +0, ivars: 1)
+  - rootTable (@16@0:8) @ 0x13876c
+  - downloadingTable (@16@0:8) @ 0x13a270
+  - navbarTable (@16@0:8) @ 0x13db58
+  - feedTable (@16@0:8) @ 0x13f670
+  - playerTable (@16@0:8) @ 0x141938
+  - shortsTable (@16@0:8) @ 0x15638c
+  - interfaceTable (@16@0:8) @ 0x15ee0c
+  - tabBarTable (@16@0:8) @ 0x165f7c
+  - sbTable (@16@0:8) @ 0x166118
+  - rpcTable (@16@0:8) @ 0x169ca0
+  - contribsTable (@16@0:8) @ 0x16b8a0
+  - libsTable (@16@0:8) @ 0x170774
+  - thanksTable (@16@0:8) @ 0x173d48
+  - prefsTable (@16@0:8) @ 0x173f3c
+  - devSection (@16@0:8) @ 0x1751ec
+  - creditsSection (@16@0:8) @ 0x176c40
+  - patreonSection: (@24@0:8@16) @ 0x177828
+  - patreonButtonCellWithType:model: (@32@0:8@16@24) @ 0x178310
+  - importPreferences (v16@0:8) @ 0x17950c
+  - resetSettings (v16@0:8) @ 0x179ce4
+  - showDonationSheet: (v24@0:8@16) @ 0x17a270
+  - openURL: (v24@0:8@16) @ 0x17dc70
+  - thanksImage: (@24@0:8@16) @ 0x17dda4
+  - sbSegments (@16@0:8) @ 0x17e128
+  - clearCacheWithCompletion: (v24@0:8@?16) @ 0x180240
+  - getCacheSize (@16@0:8) @ 0x1806dc
+  - presenter (@16@0:8) @ 0x180cf4
+  - setPresenter: (v24@0:8@16) @ 0x180d0c
+  - .cxx_destruct (v16@0:8) @ 0x180d40
+  ivar _presenter : @"UIViewController" (off=0x8, size=8)
+Class [8] DVNTableModel : _OBJC_CLASS_$_NSObject (methods: -32 +4, ivars: 12)
+  + model (@16@0:8) @ 0x18b074
+  + modelWithTitle:sections: (@32@0:8@16@24) @ 0x18b090
+  + modelWithTitle:header:footer:sections: (@48@0:8@16@24@32@40) @ 0x18b168
+  + modelWithTitle:header:footer:viewController: (@48@0:8@16@24@32@40) @ 0x18b298
+  - init (@16@0:8) @ 0x18af44
+  - addSection: (v24@0:8@16) @ 0x18b3c8
+  - addSections: (v24@0:8@16) @ 0x18b424
+  - cellForString: (@24@0:8@16) @ 0x18b480
+  - cellsMatching: (@24@0:8@?16) @ 0x18ba58
+  - cellsMatchingRecursive: (@24@0:8@?16) @ 0x18bfa4
+  - _collectMatching:into:visited: (v40@0:8@?16@24@32) @ 0x18c04c
+  - title (@16@0:8) @ 0x18c738
+  - setTitle: (v24@0:8@16) @ 0x18c740
+  - header (@16@0:8) @ 0x18c774
+  - setHeader: (v24@0:8@16) @ 0x18c77c
+  - footer (@16@0:8) @ 0x18c7b0
+  - setFooter: (v24@0:8@16) @ 0x18c7b8
+  - headerFont (@16@0:8) @ 0x18c7ec
+  - setHeaderFont: (v24@0:8@16) @ 0x18c7f4
+  - footerFont (@16@0:8) @ 0x18c828
+  - setFooterFont: (v24@0:8@16) @ 0x18c830
+  - headerAlignment (q16@0:8) @ 0x18c864
+  - setHeaderAlignment: (v24@0:8q16) @ 0x18c86c
+  - footerAlignment (q16@0:8) @ 0x18c874
+  - setFooterAlignment: (v24@0:8q16) @ 0x18c87c
+  - showsThanksHeart (B16@0:8) @ 0x18c89c
+  - setShowsThanksHeart: (v20@0:8B16) @ 0x18c8a4
+  - supportsSearching (B16@0:8) @ 0x18c8c4
+  - setSupportsSearching: (v20@0:8B16) @ 0x18c8cc
+  - sections (@16@0:8) @ 0x18c8ec
+  - setSections: (v24@0:8@16) @ 0x18c8f4
+  - viewController (@16@0:8) @ 0x18c900
+  - setViewController: (v24@0:8@16) @ 0x18c908
+  - selfViewController (@16@0:8) @ 0x18c93c
+  - setSelfViewController: (v24@0:8@16) @ 0x18c954
+  - .cxx_destruct (v16@0:8) @ 0x18c988
+  ivar _showsThanksHeart : B (off=0x8, size=1)
+  ivar _supportsSearching : B (off=0x9, size=1)
+  ivar _title : @"NSString" (off=0x10, size=8)
+  ivar _header : @"NSString" (off=0x18, size=8)
+  ivar _footer : @"NSString" (off=0x20, size=8)
+  ivar _headerFont : @"UIFont" (off=0x28, size=8)
+  ivar _footerFont : @"UIFont" (off=0x30, size=8)
+  ivar _headerAlignment : q (off=0x38, size=8)
+  ivar _footerAlignment : q (off=0x40, size=8)
+  ivar _sections : @"NSArray" (off=0x48, size=8)
+  ivar _viewController : @"UIViewController" (off=0x50, size=8)
+  ivar _selfViewController : @"UIViewController" (off=0x58, size=8)
+Class [9] DVNSection : _OBJC_CLASS_$_NSObject (methods: -17 +6, ivars: 6)
+  + sectionWithIdentifier: (@24@0:8@16) @ 0x18d668
+  + sectionWithCells:identifier: (@32@0:8@16@24) @ 0x18d6bc
+  + sectionWithHeader:cells:identifier: (@40@0:8@16@24@32) @ 0x18d9e0
+  + sectionWithHeader:footer:cells:identifier: (@48@0:8@16@24@32@40) @ 0x18dd2c
+  + sectionWithHeader:headerIcon:cells:identifier: (@48@0:8@16@24@32@40) @ 0x18e0a8
+  + sectionWithHeader:headerIcon:footer:cells:identifier: (@56@0:8@16@24@32@40@48) @ 0x18e424
+  - init (@16@0:8) @ 0x18d1b8
+  - _appendCells: (v24@0:8@16) @ 0x18d25c
+  - addCell: (v24@0:8@16) @ 0x18e7c8
+  - addCells: (v24@0:8@16) @ 0x18e89c
+  - header (@16@0:8) @ 0x18e8d0
+  - setHeader: (v24@0:8@16) @ 0x18e8d8
+  - footer (@16@0:8) @ 0x18e90c
+  - setFooter: (v24@0:8@16) @ 0x18e914
+  - identifier (@16@0:8) @ 0x18e948
+  - setIdentifier: (v24@0:8@16) @ 0x18e950
+  - headerIcon (@16@0:8) @ 0x18e984
+  - setHeaderIcon: (v24@0:8@16) @ 0x18e98c
+  - cells (@16@0:8) @ 0x18e998
+  - setCells: (v24@0:8@16) @ 0x18e9a0
+  - cellsProvider (@?16@0:8) @ 0x18e9d4
+  - setCellsProvider: (v24@0:8@?16) @ 0x18e9dc
+  - .cxx_destruct (v16@0:8) @ 0x18ea0c
+  ivar _header : @"NSString" (off=0x8, size=8)
+  ivar _footer : @"NSString" (off=0x10, size=8)
+  ivar _identifier : @"NSString" (off=0x18, size=8)
+  ivar _headerIcon : @"UIImage" (off=0x20, size=8)
+  ivar _cells : @"NSArray" (off=0x28, size=8)
+  ivar _cellsProvider : @? (off=0x30, size=8)
+Class [10] DVNCell : _OBJC_CLASS_$_NSObject (methods: -65 +18, ivars: 32)
+  + controllerCellWithModel:title:subtitle:icon: (@48@0:8@16@24@32@40) @ 0x18f304
+  + cellWithTitleIndexes:key: (@32@0:8@16@24) @ 0x18f3f4
+  + cellWithImageIndexes:key: (@32@0:8@16@24) @ 0x18f48c
+  + cellWithTitle:subtitle:handler: (@40@0:8@16@24@?32) @ 0x18f524
+  + cellWithTitle:subtitle:selfHandler: (@40@0:8@16@24@?32) @ 0x18f5e4
+  + cellWithTitle:subtitle:type:key: (@48@0:8@16@24q32@40) @ 0x18f6a4
+  + cellWithTitle:subtitle:icon:type:key: (@56@0:8@16@24@32q40@48) @ 0x18f770
+  + cellWithTitle:subtitle:imageIndexes:key: (@48@0:8@16@24@32@40) @ 0x18f864
+  + cellWithTitle:subtitle:titleIndexes:key: (@48@0:8@16@24@32@40) @ 0x18f954
+  + cellWithTitle:subtitle:titleIndexes:type:key: (@56@0:8@16@24@32q40@48) @ 0x18fa44
+  + cellWithTitle:subtitle:icon:accessoryIcon:type:key: (@64@0:8@16@24@32@40q48@56) @ 0x18fb38
+  + cellWithTitle:subtitle:icon:accessoryIcon:type:handler: (@64@0:8@16@24@32@40q48@?56) @ 0x18fc5c
+  + cellWithTitle:subtitle:image:accessoryIcon:type:handler: (@64@0:8@16@24@32@40q48@?56) @ 0x18fd80
+  + sliderCellWithMinimum:maximum:divider:key: (@48@0:8d16d24d32@40) @ 0x18feb8
+  + sliderCellWithMinimum:maximum:divider:format:key: (@56@0:8d16d24d32q40@48) @ 0x18fecc
+  + textFieldCellWithTitle:subtitle:placeholder:key: (@48@0:8@16@24@32@40) @ 0x18ffac
+  + timePickerWithTitle:subtitle:minimum:maximum:format:key: (@64@0:8@16@24d32d40q48@56) @ 0x19009c
+  + stepperCellWithTitle:subtitle:minimum:maximum:step:format:key: (@72@0:8@16@24d32d40d48q56@64) @ 0x1901b4
+  - init (@16@0:8) @ 0x18f228
+  - identifier (@16@0:8) @ 0x1902ec
+  - setIdentifier: (v24@0:8@16) @ 0x1902f4
+  - reuseIdentifier (@16@0:8) @ 0x190328
+  - title (@16@0:8) @ 0x190330
+  - setTitle: (v24@0:8@16) @ 0x190338
+  - subtitle (@16@0:8) @ 0x19036c
+  - setSubtitle: (v24@0:8@16) @ 0x190374
+  - detailText (@16@0:8) @ 0x1903a8
+  - setDetailText: (v24@0:8@16) @ 0x1903b0
+  - key (@16@0:8) @ 0x1903e4
+  - setKey: (v24@0:8@16) @ 0x1903ec
+  - placeholder (@16@0:8) @ 0x190420
+  - setPlaceholder: (v24@0:8@16) @ 0x190428
+  - titleIndexes (@16@0:8) @ 0x190434
+  - setTitleIndexes: (v24@0:8@16) @ 0x19043c
+  - imageIndexes (@16@0:8) @ 0x190470
+  - setImageIndexes: (v24@0:8@16) @ 0x190478
+  - dividerValue (d16@0:8) @ 0x1904ac
+  - setDividerValue: (v24@0:8d16) @ 0x1904b4
+  - minimumValue (d16@0:8) @ 0x1904bc
+  - setMinimumValue: (v24@0:8d16) @ 0x1904c4
+  - maximumValue (d16@0:8) @ 0x1904e4
+  - setMaximumValue: (v24@0:8d16) @ 0x1904ec
+  - sliderFormat (q16@0:8) @ 0x19050c
+  - setSliderFormat: (v24@0:8q16) @ 0x190514
+  - reloadsCell (B16@0:8) @ 0x190534
+  - setReloadsCell: (v20@0:8B16) @ 0x19053c
+  - reloadsTable (B16@0:8) @ 0x19055c
+  - setReloadsTable: (v20@0:8B16) @ 0x190564
+  - shouldHideDetail (B16@0:8) @ 0x190584
+  - setShouldHideDetail: (v20@0:8B16) @ 0x19058c
+  - renderingMode (q16@0:8) @ 0x1905ac
+  - setRenderingMode: (v24@0:8q16) @ 0x1905b4
+  - icon (@16@0:8) @ 0x1905d4
+  - setIcon: (v24@0:8@16) @ 0x1905dc
+  - image (@16@0:8) @ 0x190610
+  - setImage: (v24@0:8@16) @ 0x190618
+  - accessoryIcon (@16@0:8) @ 0x19064c
+  - setAccessoryIcon: (v24@0:8@16) @ 0x190654
+  - type (q16@0:8) @ 0x190688
+  - setType: (v24@0:8q16) @ 0x190690
+  - tintColor (@16@0:8) @ 0x1906b0
+  - setTintColor: (v24@0:8@16) @ 0x1906b8
+  - sourceView (@16@0:8) @ 0x1906ec
+  - setSourceView: (v24@0:8@16) @ 0x190704
+  - controllerModel (@16@0:8) @ 0x190738
+  - setControllerModel: (v24@0:8@16) @ 0x190740
+  - customData (@16@0:8) @ 0x190774
+  - setCustomData: (v24@0:8@16) @ 0x19077c
+  - handler (@?16@0:8) @ 0x1907b0
+  - setHandler: (v24@0:8@?16) @ 0x1907b8
+  - selfHandler (@?16@0:8) @ 0x1907e8
+  - setSelfHandler: (v24@0:8@?16) @ 0x1907f0
+  - handlerWithCompletion (@?16@0:8) @ 0x1907f8
+  - setHandlerWithCompletion: (v24@0:8@?16) @ 0x190800
+  - subtitleProvider (@?16@0:8) @ 0x190830
+  - setSubtitleProvider: (v24@0:8@?16) @ 0x190838
+  - titleIndexesProvider (@?16@0:8) @ 0x190868
+  - setTitleIndexesProvider: (v24@0:8@?16) @ 0x190870
+  - validationHandler (@?16@0:8) @ 0x1908a0
+  - setValidationHandler: (v24@0:8@?16) @ 0x1908a8
+  - errorText (@16@0:8) @ 0x1908b0
+  - setErrorText: (v24@0:8@16) @ 0x1908b8
+  - .cxx_destruct (v16@0:8) @ 0x1908ec
+  ivar _reloadsCell : B (off=0x8, size=1)
+  ivar _reloadsTable : B (off=0x9, size=1)
+  ivar _shouldHideDetail : B (off=0xa, size=1)
+  ivar _identifier : @"NSString" (off=0x10, size=8)
+  ivar _reuseIdentifier : @"NSString" (off=0x18, size=8)
+  ivar _title : @"NSString" (off=0x20, size=8)
+  ivar _subtitle : @"NSString" (off=0x28, size=8)
+  ivar _detailText : @"NSString" (off=0x30, size=8)
+  ivar _key : @"NSString" (off=0x38, size=8)
+  ivar _placeholder : @"NSString" (off=0x40, size=8)
+  ivar _titleIndexes : @"NSArray" (off=0x48, size=8)
+  ivar _imageIndexes : @"NSArray" (off=0x50, size=8)
+  ivar _dividerValue : d (off=0x58, size=8)
+  ivar _minimumValue : d (off=0x60, size=8)
+  ivar _maximumValue : d (off=0x68, size=8)
+  ivar _sliderFormat : q (off=0x70, size=8)
+  ivar _renderingMode : q (off=0x78, size=8)
+  ivar _icon : @"UIImage" (off=0x80, size=8)
+  ivar _image : @"UIImage" (off=0x88, size=8)
+  ivar _accessoryIcon : @"UIImage" (off=0x90, size=8)
+  ivar _type : q (off=0x98, size=8)
+  ivar _tintColor : @"UIColor" (off=0xa0, size=8)
+  ivar _sourceView : @"UIView" (off=0xa8, size=8)
+  ivar _controllerModel : @"DVNTableModel" (off=0xb0, size=8)
+  ivar _customData : @"NSDictionary" (off=0xb8, size=8)
+  ivar _handler : @? (off=0xc0, size=8)
+  ivar _selfHandler : @? (off=0xc8, size=8)
+  ivar _handlerWithCompletion : @? (off=0xd0, size=8)
+  ivar _subtitleProvider : @? (off=0xd8, size=8)
+  ivar _titleIndexesProvider : @? (off=0xe0, size=8)
+  ivar _validationHandler : @? (off=0xe8, size=8)
+  ivar _errorText : @"NSString" (off=0xf0, size=8)
+Class [11] DVNSupportersVC : _OBJC_CLASS_$_UIViewController (methods: -5 +0, ivars: 2)
+  - viewDidLoad (v16@0:8) @ 0x191890
+  - webView:didStartProvisionalNavigation: (v32@0:8@16@24) @ 0x1923c4
+  - webView:didFinishNavigation: (v32@0:8@16@24) @ 0x192404
+  - webView:didFailProvisionalNavigation:withError: (v40@0:8@16@24@32) @ 0x192444
+  - .cxx_destruct (v16@0:8) @ 0x1928a8
+  ivar _webView : @"WKWebView" (off=0x8, size=8)
+  ivar _activityIndicator : @"UIActivityIndicatorView" (off=0x10, size=8)
+Class [12] SBSegment : _OBJC_CLASS_$_NSObject (methods: -19 +1, ivars: 9)
+  + segmentWithDictionary: (@24@0:8@16) @ 0x193364
+  - uuid (@16@0:8) @ 0x193ca4
+  - setUuid: (v24@0:8@16) @ 0x193cac
+  - category (@16@0:8) @ 0x193ce0
+  - setCategory: (v24@0:8@16) @ 0x193ce8
+  - actionType (@16@0:8) @ 0x193d1c
+  - setActionType: (v24@0:8@16) @ 0x193d24
+  - segmentDescription (@16@0:8) @ 0x193d58
+  - setSegmentDescription: (v24@0:8@16) @ 0x193d60
+  - start (d16@0:8) @ 0x193d94
+  - setStart: (v24@0:8d16) @ 0x193d9c
+  - end (d16@0:8) @ 0x193dbc
+  - setEnd: (v24@0:8d16) @ 0x193dc4
+  - videoDuration (d16@0:8) @ 0x193de4
+  - setVideoDuration: (v24@0:8d16) @ 0x193dec
+  - locked (B16@0:8) @ 0x193e0c
+  - setLocked: (v20@0:8B16) @ 0x193e14
+  - votes (q16@0:8) @ 0x193e34
+  - setVotes: (v24@0:8q16) @ 0x193e3c
+  - .cxx_destruct (v16@0:8) @ 0x193e5c
+  ivar _locked : B (off=0x8, size=1)
+  ivar _uuid : @"NSString" (off=0x10, size=8)
+  ivar _category : @"NSString" (off=0x18, size=8)
+  ivar _actionType : @"NSString" (off=0x20, size=8)
+  ivar _segmentDescription : @"NSString" (off=0x28, size=8)
+  ivar _start : d (off=0x30, size=8)
+  ivar _end : d (off=0x38, size=8)
+  ivar _videoDuration : d (off=0x40, size=8)
+  ivar _votes : q (off=0x48, size=8)
+Class [13] SBPlaybackController : _OBJC_CLASS_$_NSObject (methods: -13 +0, ivars: 3)
+  - initWithPlayer: (@24@0:8@16) @ 0x194290
+  - requestSbSegments (v16@0:8) @ 0x194380
+  - shouldCheckSponsorBlock (B16@0:8) @ 0x1945fc
+  - skipSegmentIfNeeded (v16@0:8) @ 0x1950e8
+  - segmentMeetsMinimumDuration: (B24@0:8@16) @ 0x195eb8
+  - handleSkipSegment: (v24@0:8@16) @ 0x196230
+  - handleHighlightSegment: (v24@0:8@16) @ 0x196558
+  - seekToTime:forSegment:undoTime:attempts: (v44@0:8d16@24d32i40) @ 0x196868
+  - showSkippedToast:undoTime: (v32@0:8@16d24) @ 0x196e04
+  - showSkipPromptToast:timeBeforeSkip:target: (v40@0:8@16d24d32) @ 0x19757c
+  - playSkipAudioIfNeeded (v16@0:8) @ 0x197fa0
+  - dealloc (v16@0:8) @ 0x198144
+  - .cxx_destruct (v16@0:8) @ 0x1981b4
+  ivar _player : @"YTPlayerViewController" (off=0x8, size=8)
+  ivar _videoID : @"NSString" (off=0x10, size=8)
+  ivar _skippedUUIDs : @"NSMutableSet" (off=0x18, size=8)
+Class [14] SBManager : _OBJC_CLASS_$_NSObject (methods: -5 +1, ivars: 2)
+  + sharedManager (@16@0:8) @ 0x1991dc
+  - init (@16@0:8) @ 0x1992b8
+  - getSegmentsForID: (v24@0:8@16) @ 0x199af8
+  - segments (@16@0:8) @ 0x19ab50
+  - setSegments: (v24@0:8@16) @ 0x19ab58
+  - .cxx_destruct (v16@0:8) @ 0x19ab8c
+  ivar _categories : @"NSString" (off=0x8, size=8)
+  ivar _segments : @"NSMutableDictionary" (off=0x10, size=8)
+Class [15] SBPlayerDecorator : _OBJC_CLASS_$_NSObject (methods: -0 +8, ivars: 0)
+  + addDurationWithoutSegments:videoController: (v32@0:8@16@24) @ 0x19b098
+  + shouldDrawRoundedForBarView: (B24@0:8@16) @ 0x19bfac
+  + _decorationDataForBarView: (@24@0:8@16) @ 0x19c7b4
+  + drawSegmentsDecorationView: (v24@0:8@16) @ 0x19d048
+  + drawSegmentsOnActiveDecorationView: (v24@0:8@16) @ 0x19d0e8
+  + _drawSegmentsForData: (v24@0:8@16) @ 0x19d4e8
+  + drawSegments:layer:playerVC: (v40@0:8@16@24@32) @ 0x19e7b4
+  + drawSegmentableSegments:playerBar:playerVC: (v40@0:8@16@24@32) @ 0x19f838
+Class [16] SBPlayerDecorationData : _OBJC_CLASS_$_NSObject (methods: -9 +0, ivars: 4)
+  - segments (@16@0:8) @ 0x1a2a40
+  - setSegments: (v24@0:8@16) @ 0x1a2a48
+  - playerBarWidth (d16@0:8) @ 0x1a2a54
+  - setPlayerBarWidth: (v24@0:8d16) @ 0x1a2a5c
+  - mediaDuration (d16@0:8) @ 0x1a2a7c
+  - setMediaDuration: (v24@0:8d16) @ 0x1a2a84
+  - barView (@16@0:8) @ 0x1a2aa4
+  - setBarView: (v24@0:8@16) @ 0x1a2abc
+  - .cxx_destruct (v16@0:8) @ 0x1a2af0
+  ivar _segments : @"NSArray" (off=0x8, size=8)
+  ivar _playerBarWidth : d (off=0x10, size=8)
+  ivar _mediaDuration : d (off=0x18, size=8)
+  ivar _barView : @"UIView" (off=0x20, size=8)
+Class [17] DVNMediaPicker : _OBJC_CLASS_$_NSObject (methods: -8 +1, ivars: 1)
+  + sharedPicker (@16@0:8) @ 0x1a2b38
+  - presentImagePickerForVC: (v24@0:8@16) @ 0x1a2c30
+  - picker:didFinishPicking: (v32@0:8@16@24) @ 0x1a2d44
+  - presentFilePickerForVC:isMultipleSelection: (v28@0:8@16B24) @ 0x1a3348
+  - documentPicker:didPickDocumentsAtURLs: (v32@0:8@16@24) @ 0x1a6260
+  - tempCopyOfURL: (@24@0:8@16) @ 0x1a6364
+  - prepareMediaForUse: (v24@0:8@16) @ 0x1a65c0
+  - prepareURLsForImport: (v24@0:8@16) @ 0x1a72f0
+  - .cxx_destruct (v16@0:8) @ 0x1a8e24
+  ivar _viewController : @"UIViewController" (off=0x8, size=8)
+Class [18] YTPMedia : _OBJC_CLASS_$_NSObject (methods: -2 +65, ivars: 1)
+  + sharedMedia (@16@0:8) @ 0x1aa098
+  + pageStyle (q16@0:8) @ 0x1aa174
+  + adaptiveBackgroundColor (@16@0:8) @ 0x1aa2f8
+  + oledForColor: (@24@0:8@16) @ 0x1aa5d4
+  + imageWithName: (@24@0:8@16) @ 0x1aa920
+  + historyTab (@16@0:8) @ 0x1aab50
+  + historyTabSelected (@16@0:8) @ 0x1aae04
+  + watchLaterTab (@16@0:8) @ 0x1ab1c0
+  + watchLaterTabSelected (@16@0:8) @ 0x1ab3dc
+  + postsTab (@16@0:8) @ 0x1ab6f8
+  + postsTabSelected (@16@0:8) @ 0x1ab9e8
+  + hypeTab (@16@0:8) @ 0x1abdc4
+  + hypeTabSelected (@16@0:8) @ 0x1ac17c
+  + musicTab (@16@0:8) @ 0x1ac62c
+  + musicTabSelected (@16@0:8) @ 0x1acaa8
+  + liveTab (@16@0:8) @ 0x1ad00c
+  + liveTabSelected (@16@0:8) @ 0x1ad468
+  + gamingTab (@16@0:8) @ 0x1ad9c8
+  + gamingTabSelected (@16@0:8) @ 0x1ade34
+  + sportsTab (@16@0:8) @ 0x1ae3b0
+  + sportsTabSelected (@16@0:8) @ 0x1ae81c
+  + notificationsTab (@16@0:8) @ 0x1aed98
+  + notificationsTabSelected (@16@0:8) @ 0x1af194
+  + ytPlus (@16@0:8) @ 0x1af6ac
+  + ytPlusShorts (@16@0:8) @ 0x1af928
+  + sponsorblock (@16@0:8) @ 0x1afba4
+  + lock (@16@0:8) @ 0x1afea8
+  + volumeOff (@16@0:8) @ 0x1b00c8
+  + volumeOn (@16@0:8) @ 0x1b034c
+  + moon (@16@0:8) @ 0x1b05a0
+  + downloading (@16@0:8) @ 0x1b0784
+  + credits (@16@0:8) @ 0x1b0a74
+  + donor (@16@0:8) @ 0x1b0cf4
+  + feed (@16@0:8) @ 0x1b0f30
+  + FEshorts (@16@0:8) @ 0x1b114c
+  + interface (@16@0:8) @ 0x1b13e4
+  + libs (@16@0:8) @ 0x1b16a8
+  + localization (@16@0:8) @ 0x1b18cc
+  + navbar (@16@0:8) @ 0x1b1bd8
+  + open_new (@16@0:8) @ 0x1b1e30
+  + player (@16@0:8) @ 0x1b20d8
+  + support (@16@0:8) @ 0x1b2340
+  + tabbar (@16@0:8) @ 0x1b25bc
+  + ytl_settings (@16@0:8) @ 0x1b2814
+  + captions (@16@0:8) @ 0x1b2b1c
+  + FElibrary (@16@0:8) @ 0x1b2dac
+  + FEsubscriptions (@16@0:8) @ 0x1b306c
+  + FEuploads (@16@0:8) @ 0x1b33dc
+  + FEwhat_to_watch (@16@0:8) @ 0x1b3690
+  + link (@16@0:8) @ 0x1b39ec
+  + x_prefs (@16@0:8) @ 0x1b3c18
+  + box_checkmark (@16@0:8) @ 0x1b3d60
+  + box_empty (@16@0:8) @ 0x1b4088
+  + copy (@16@0:8) @ 0x1b4330
+  + image_library (@16@0:8) @ 0x1b4550
+  + image (@16@0:8) @ 0x1b4878
+  + message (@16@0:8) @ 0x1b4ac4
+  + music (@16@0:8) @ 0x1b4d3c
+  + play_circle (@16@0:8) @ 0x1b4f84
+  + show_image (@16@0:8) @ 0x1b5278
+  + star_half (@16@0:8) @ 0x1b5554
+  + youtube_logo (@16@0:8) @ 0x1b580c
+  + check (@16@0:8) @ 0x1b5b10
+  + empty (@16@0:8) @ 0x1b5d50
+  + adaptiveDiscord (@16@0:8) @ 0x1b5e88
+  - setCairo: (v20@0:8B16) @ 0x1b63d8
+  - isCairo (B16@0:8) @ 0x1b6720
+  ivar _cairo : B (off=0x8, size=1)
+Class [19] DVNHorizontalPanDelegate : _OBJC_CLASS_$_NSObject (methods: -1 +0, ivars: 0)
+  - gestureRecognizerShouldBegin: (B24@0:8@16) @ 0x1b9004
+Class [20] ToastView : _OBJC_CLASS_$_UIVisualEffectView (methods: -45 +2, ivars: 22)
+  + initialize (v16@0:8) @ 0x1b9734
+  + toastWindow (@16@0:8) @ 0x1b97d0
+  - init (@16@0:8) @ 0x1ba078
+  - enqueueCommand: (v24@0:8@?16) @ 0x1bb724
+  - processQueue (v16@0:8) @ 0x1bb7bc
+  - setupInterfaceWithText:progress:withStop:isStatus:isSuccess:withWait: (v44@0:8@16f24B28B32B36B40) @ 0x1bb8f8
+  - handlePanGesture: (v24@0:8@16) @ 0x1bc268
+  - handleTap (v16@0:8) @ 0x1bd354
+  - updateLayout (v16@0:8) @ 0x1be2a0
+  - calculateToastParametersWithKeyboardHeight:bottomOffset:topOffset:scale: (v48@0:8d16^d24^d32^d40) @ 0x1be3d8
+  - configureToastAppearanceWithBottomOffset:topOffset:scale:width:animationDuration: (v56@0:8d16d24d32d40d48) @ 0x1be814
+  - configureToastAppearanceWithBottomOffset:topOffset:scale:width:alpha:animationDuration:completion: (v72@0:8d16d24d32d40d48d56@?64) @ 0x1bea98
+  - setupObservers (v16@0:8) @ 0x1bed60
+  - removeObservers (v16@0:8) @ 0x1bf0a8
+  - goodHeightDidChange: (v24@0:8@16) @ 0x1bf3fc
+  - keyboardWillShow: (v24@0:8@16) @ 0x1bf570
+  - keyboardWillHide: (v24@0:8@16) @ 0x1bf66c
+  - cleanup (v16@0:8) @ 0x1bf6ac
+  - cancelButtonTapped (v16@0:8) @ 0x1bf784
+  - handleLongPress: (v24@0:8@16) @ 0x1bf8f0
+  - showProgressWithText:progress:withStop:stopCompletion: (v40@0:8@16f24B28@?32) @ 0x1bf98c
+  - updateText:progress: (v28@0:8@16f24) @ 0x1bfcbc
+  - updateText:progress:animated: (v32@0:8@16f24B28) @ 0x1bfd34
+  - showMessageWithText:isSuccess: (v28@0:8@16B24) @ 0x1bfdb0
+  - showMessageWithText:isSuccess:duration: (v36@0:8@16B24d28) @ 0x1bfde8
+  - showText: (v24@0:8@16) @ 0x1c0100
+  - showToast: (v24@0:8@16) @ 0x1c0358
+  - showProgressiveToastWithText:duration:isSuccess: (v36@0:8@16d24B32) @ 0x1c068c
+  - showProgressiveToastWithText:duration:actionTitle:actionCompletion: (v48@0:8@16d24@32@?40) @ 0x1c0950
+  - showProgressiveToastWithText:duration:actionIcon:actionCompletion: (v48@0:8@16d24@32@?40) @ 0x1c1034
+  - showProgressiveToastWithText:duration:actionIcon:ignoresPan:actionCompletion: (v52@0:8@16d24@32B40@?44) @ 0x1c1070
+  - showDonationReminder: (v24@0:8@16) @ 0x1c14e8
+  - startTimerCountdown: (v24@0:8d16) @ 0x1c1738
+  - hideAnimatedWithCompletion: (v24@0:8@?16) @ 0x1c19b8
+  - hideImmediately (v16@0:8) @ 0x1c213c
+  - hideWithDelay: (v24@0:8d16) @ 0x1c218c
+  - hide (v16@0:8) @ 0x1c2244
+  - isHidden (B16@0:8) @ 0x1c227c
+  - hideWithCompletion: (v24@0:8@?16) @ 0x1c2348
+  - isLandscape (B16@0:8) @ 0x1c24f8
+  - isFullscreen (B16@0:8) @ 0x1c25c0
+  - isPinnedTop (B16@0:8) @ 0x1c2614
+  - bottomOffset (d16@0:8) @ 0x1c2668
+  - dealloc (v16@0:8) @ 0x1c2754
+  - completion (@?16@0:8) @ 0x1c27b8
+  - setCompletion: (v24@0:8@?16) @ 0x1c27c8
+  - .cxx_destruct (v16@0:8) @ 0x1c27d4
+  ivar _commandQueue : @"NSMutableArray" (off=0x8, size=8)
+  ivar _isiPad : B (off=0x10, size=1)
+  ivar _isAnimating : B (off=0x11, size=1)
+  ivar _ignoresFullscreenOpacity : B (off=0x12, size=1)
+  ivar _ignoresPanGesture : B (off=0x13, size=1)
+  ivar _ytSourceView : @"UIWindow" (off=0x18, size=8)
+  ivar _sourceView : @"UIView" (off=0x20, size=8)
+  ivar _keyboardHeight : d (off=0x28, size=8)
+  ivar _goodHeight : d (off=0x30, size=8)
+  ivar _toastLabel : @"UILabel" (off=0x38, size=8)
+  ivar _toastProgress : @"UIProgressView" (off=0x40, size=8)
+  ivar _toastIcon : @"UIImageView" (off=0x48, size=8)
+  ivar _actionsStack : @"UIStackView" (off=0x50, size=8)
+  ivar _toastButton : @"UIButton" (off=0x58, size=8)
+  ivar _activityIndicator : @"UIActivityIndicatorView" (off=0x60, size=8)
+  ivar _progressTimer : @"NSTimer" (off=0x68, size=8)
+  ivar _topConstraint : @"NSLayoutConstraint" (off=0x70, size=8)
+  ivar _bottomConstraint : @"NSLayoutConstraint" (off=0x78, size=8)
+  ivar _centerXConstraint : @"NSLayoutConstraint" (off=0x80, size=8)
+  ivar _widthConstraint : @"NSLayoutConstraint" (off=0x88, size=8)
+  ivar _heightConstraint : @"NSLayoutConstraint" (off=0x90, size=8)
+  ivar _completion : @? (off=0x98, size=8)
+Class [21] ToastWindow : _OBJC_CLASS_$_UIWindow (methods: -8 +1, ivars: 0)
+  + initialize (v16@0:8) @ 0x1c897c
+  - hitTest:withEvent: (@40@0:8{CGPoint=dd}16@32) @ 0x1c77f8
+  - initWithWindowScene: (@24@0:8@16) @ 0x1c84d4
+  - canBecomeKeyWindow (B16@0:8) @ 0x1c85c4
+  - makeKeyAndVisible (v16@0:8) @ 0x1c85cc
+  - shouldAffectStatusBarAppearance (B16@0:8) @ 0x1c8688
+  - _windowControlsStatusBarOrientation (B16@0:8) @ 0x1c8690
+  - _canBecomeKeyWindow (B16@0:8) @ 0x1c8698
+  - appKeyWindow (@16@0:8) @ 0x1c86a0
+Class [22] ToastManager : _OBJC_CLASS_$_NSObject (methods: -13 +2, ivars: 4)
+  + sharedManager (@16@0:8) @ 0x1c94f4
+  + showMessageWithText:isSuccess: (v28@0:8@16B24) @ 0x1c9680
+  - init (@16@0:8) @ 0x1c95c4
+  - registerToast: (v24@0:8@16) @ 0x1c97cc
+  - unregisterToast: (v24@0:8@16) @ 0x1c9914
+  - updateAllToasts (v16@0:8) @ 0x1c9a0c
+  - toasts (@16@0:8) @ 0x1c9c94
+  - setToasts: (v24@0:8@16) @ 0x1c9c9c
+  - offsetController (@16@0:8) @ 0x1c9cd0
+  - setOffsetController: (v24@0:8@16) @ 0x1c9cd8
+  - isPinnedTop (B16@0:8) @ 0x1c9d0c
+  - setIsPinnedTop: (v20@0:8B16) @ 0x1c9d14
+  - isFullscreen (B16@0:8) @ 0x1c9d34
+  - setIsFullscreen: (v20@0:8B16) @ 0x1c9d3c
+  - .cxx_destruct (v16@0:8) @ 0x1c9d44
+  ivar _isPinnedTop : B (off=0x8, size=1)
+  ivar _isFullscreen : B (off=0x9, size=1)
+  ivar _toasts : @"NSMutableArray" (off=0x10, size=8)
+  ivar _offsetController : @"YTToastOffsetController" (off=0x18, size=8)
+Class [23] YTPAPIHelper : _OBJC_CLASS_$_NSObject (methods: -0 +1, ivars: 0)
+  + fetchChannelImageWithChannelID:completion: (v32@0:8@16@?24) @ 0x1ca0f8
+Class [24] Downloader : _OBJC_CLASS_$_NSObject (methods: -11 +0, ivars: 11)
+  - init (@16@0:8) @ 0x1cc7f0
+  - downloadFileWithURL:fileName:fileSize: (v40@0:8@16@24Q32) @ 0x1cc920
+  - downloadNextChunk (v16@0:8) @ 0x1ccf1c
+  - cancelDownload (v16@0:8) @ 0x1cd1bc
+  - getFilePath (@16@0:8) @ 0x1cd398
+  - URLSession:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite: (v56@0:8@16@24q32q40q48) @ 0x1cd8c4
+  - URLSession:downloadTask:didFinishDownloadingToURL: (v40@0:8@16@24@32) @ 0x1cd9c4
+  - URLSession:task:didCompleteWithError: (v40@0:8@16@24@32) @ 0x1cdcd4
+  - delegate (@16@0:8) @ 0x1cde60
+  - setDelegate: (v24@0:8@16) @ 0x1cde78
+  - .cxx_destruct (v16@0:8) @ 0x1cde84
+  ivar _session : @"NSURLSession" (off=0x8, size=8)
+  ivar _downloadTask : @"NSURLSessionDownloadTask" (off=0x10, size=8)
+  ivar _fileName : @"NSString" (off=0x18, size=8)
+  ivar _chunkSize : Q (off=0x20, size=8)
+  ivar _totalChunks : Q (off=0x28, size=8)
+  ivar _downloadedChunks : Q (off=0x30, size=8)
+  ivar _fileHandle : @"NSFileHandle" (off=0x38, size=8)
+  ivar _fileURL : @"NSURL" (off=0x40, size=8)
+  ivar _totalDownloadedBytes : q (off=0x48, size=8)
+  ivar _totalExpectedBytes : q (off=0x50, size=8)
+  ivar _delegate : @"<DownloaderDelegate>" (off=0x58, size=8)
+Class [25] AudioManager : _OBJC_CLASS_$_NSObject (methods: -7 +1, ivars: 1)
+  + sharedInstance (@16@0:8) @ 0x1ce700
+  - init (@16@0:8) @ 0x1ce7f8
+  - playAudio (v16@0:8) @ 0x1cf0dc
+  - stopAudio (v16@0:8) @ 0x1cf1bc
+  - audioPlayerDidFinishPlaying:successfully: (v28@0:8@16B24) @ 0x1cf2cc
+  - audioPlayer (@16@0:8) @ 0x1cf2e8
+  - setAudioPlayer: (v24@0:8@16) @ 0x1cf2f0
+  - .cxx_destruct (v16@0:8) @ 0x1cf2fc
+  ivar _audioPlayer : @"AVAudioPlayer" (off=0x8, size=8)
+Class [26] YTPDownloader : _OBJC_CLASS_$_NSObject (methods: -16 +0, ivars: 12)
+  - init (@16@0:8) @ 0x1cf6e8
+  - cancelDownload (v16@0:8) @ 0x1cf840
+  - cleanup (v16@0:8) @ 0x1cf8b4
+  - downloadFileWithURL:fileName:videoID:fileSize: (v48@0:8@16@24@32Q40) @ 0x1cfae8
+  - hashForFile:fileSize: (@32@0:8@16Q24) @ 0x1d0474
+  - createTempDirectoryIfNeeded (@16@0:8) @ 0x1d0654
+  - getFilePath (@16@0:8) @ 0x1d0b54
+  - getChunkMapPath (@16@0:8) @ 0x1d0c2c
+  - saveChunkMap (v16@0:8) @ 0x1d0e38
+  - loadChunkMap (B16@0:8) @ 0x1d1454
+  - continueDownloadingForURL: (v24@0:8@16) @ 0x1d235c
+  - URLSession:dataTask:didReceiveData: (v40@0:8@16@24@32) @ 0x1d3288
+  - URLSession:task:didCompleteWithError: (v40@0:8@16@24@32) @ 0x1d3c4c
+  - delegate (@16@0:8) @ 0x1d47a4
+  - setDelegate: (v24@0:8@16) @ 0x1d47bc
+  - .cxx_destruct (v16@0:8) @ 0x1d47c8
+  ivar _session : @"NSURLSession" (off=0x8, size=8)
+  ivar _dataTask : @"NSURLSessionDataTask" (off=0x10, size=8)
+  ivar _fileHandle : @"NSFileHandle" (off=0x18, size=8)
+  ivar _fileName : @"NSString" (off=0x20, size=8)
+  ivar _videoID : @"NSString" (off=0x28, size=8)
+  ivar _totalFileSize : q (off=0x30, size=8)
+  ivar _downloadedSize : q (off=0x38, size=8)
+  ivar _chunkMap : @"NSMutableDictionary" (off=0x40, size=8)
+  ivar _chunkSize : Q (off=0x48, size=8)
+  ivar _filePath : @"NSString" (off=0x50, size=8)
+  ivar _chunkMapPath : @"NSString" (off=0x58, size=8)
+  ivar _delegate : @"<DownloaderDelegate>" (off=0x60, size=8)
+Class [27] SbWhitelistVC : DVNTableViewController (methods: -18 +0, ivars: 3)
+  - init (@16@0:8) @ 0x1d5f64
+  - setupWhitelist (v16@0:8) @ 0x1d60a8
+  - loadView (v16@0:8) @ 0x1d77d8
+  - closeButtonTapped (v16@0:8) @ 0x1d7ca4
+  - tableView:titleForHeaderInSection: (@32@0:8@16q24) @ 0x1d7cb8
+  - tableView:willDisplayHeaderView:forSection: (v40@0:8@16@24q32) @ 0x1d7ebc
+  - getSortActions (@16@0:8) @ 0x1d87f4
+  - updateSortMenu (v16@0:8) @ 0x1d9e2c
+  - numberOfSectionsInTableView: (q24@0:8@16) @ 0x1da0d0
+  - tableView:numberOfRowsInSection: (q32@0:8@16q24) @ 0x1da0e8
+  - tableView:cellForRowAtIndexPath: (@32@0:8@16@24) @ 0x1da144
+  - tableView:shouldHighlightRowAtIndexPath: (B32@0:8@16@24) @ 0x1da910
+  - tableView:didSelectRowAtIndexPath: (v32@0:8@16@24) @ 0x1da918
+  - tableView:trailingSwipeActionsConfigurationForRowAtIndexPath: (@32@0:8@16@24) @ 0x1dad10
+  - removeChannelWithLink: (v24@0:8@16) @ 0x1db2b8
+  - ytlImageWithName: (@24@0:8@16) @ 0x1db918
+  - channelImage: (@24@0:8@16) @ 0x1db9d8
+  - .cxx_destruct (v16@0:8) @ 0x1dbd00
+  ivar _sortButton : @"UIButton" (off=0x8, size=8)
+  ivar _sections : @"NSArray" (off=0x10, size=8)
+  ivar _channels : @"NSMutableArray" (off=0x18, size=8)
+Class [28] YTPTranslator : _OBJC_CLASS_$_NSObject (methods: -0 +2, ivars: 0)
+  + translateText:fromLanguage:toLanguage:completion: (v48@0:8@16@24@32@?40) @ 0x1dde34
+  + translateSingleText:fromLanguage:toLanguage:completion: (v48@0:8@16@24@32@?40) @ 0x1de8b8
+Class [29] TranslatorVC : _OBJC_CLASS_$_UITableViewController (methods: -15 +0, ivars: 9)
+  - initWithText: (@24@0:8@16) @ 0x1dffc8
+  - viewDidLoad (v16@0:8) @ 0x1e0ce4
+  - closeButtonTapped (v16@0:8) @ 0x1e1270
+  - tableView:willDisplayHeaderView:forSection: (v40@0:8@16@24q32) @ 0x1e12ac
+  - tableView:heightForRowAtIndexPath: (d32@0:8@16@24) @ 0x1e14e0
+  - numberOfSectionsInTableView: (q24@0:8@16) @ 0x1e1550
+  - tableView:numberOfRowsInSection: (q32@0:8@16q24) @ 0x1e1568
+  - tableView:cellForRowAtIndexPath: (@32@0:8@16@24) @ 0x1e15c4
+  - menuButtonWithTitle:array: (@32@0:8@16@24) @ 0x1e2d58
+  - systemImage:withSize: (@32@0:8@16d24) @ 0x1e363c
+  - isRTL (B16@0:8) @ 0x1e38a4
+  - translateText (v16@0:8) @ 0x1e3910
+  - tableView:shouldHighlightRowAtIndexPath: (B32@0:8@16@24) @ 0x1e4008
+  - tableView:didSelectRowAtIndexPath: (v32@0:8@16@24) @ 0x1e4010
+  - .cxx_destruct (v16@0:8) @ 0x1e4050
+  ivar _tableView : @"UITableView" (off=0x8, size=8)
+  ivar _translateButton : @"UIButton" (off=0x10, size=8)
+  ivar _textView : @"UITextView" (off=0x18, size=8)
+  ivar _sourceText : @"NSString" (off=0x20, size=8)
+  ivar _langIndex : q (off=0x28, size=8)
+  ivar _sections : @"NSArray" (off=0x30, size=8)
+  ivar _type : @"NSArray" (off=0x38, size=8)
+  ivar _translation : @"NSArray" (off=0x40, size=8)
+  ivar _translate : @"NSArray" (off=0x48, size=8)
+Class [30] YTLUserDefaults : _OBJC_CLASS_$_NSUserDefaults (methods: -10 +10, ivars: 1)
+  + standardUserDefaults (@16@0:8) @ 0x1e60cc
+  + importYtlSettings: (v24@0:8@?16) @ 0x1ec1e8
+  + exportYtlSettings: (v24@0:8@16) @ 0x1ed410
+  + resetUserDefaults (v16@0:8) @ 0x1eda90
+  + boolForKey: (B24@0:8@16) @ 0x1edad0
+  + integerForKey: (q24@0:8@16) @ 0x1edb48
+  + floatForKey: (d24@0:8@16) @ 0x1edbc0
+  + setBool:forKey: (v28@0:8B16@20) @ 0x1edc44
+  + setInteger:forKey: (v32@0:8q16@24) @ 0x1edcd4
+  + setFloat:forKey: (v32@0:8d16@24) @ 0x1edd64
+  - reset (v16@0:8) @ 0x1e6360
+  - registerDefaults (v16@0:8) @ 0x1e6500
+  - colorForSegment: (@24@0:8@16) @ 0x1eaa6c
+  - sbPrivateUserID (@16@0:8) @ 0x1eb70c
+  - sbPublicUserID: (@24@0:8@16) @ 0x1ebf38
+  - presentDocumentPicker: (v24@0:8@?16) @ 0x1ecf10
+  - documentPicker:didPickDocumentAtURL: (v32@0:8@16@24) @ 0x1ed31c
+  - prefsPickerCompletion (@?16@0:8) @ 0x1eddfc
+  - setPrefsPickerCompletion: (v24@0:8@?16) @ 0x1ede0c
+  - .cxx_destruct (v16@0:8) @ 0x1ede40
+  ivar _prefsPickerCompletion : @? (off=0x20, size=8)
+Class [31] DVNSheetPresenter : _OBJC_CLASS_$_NSObject (methods: -0 +3, ivars: 0)
+  + presentCustomHeightViewController:fromViewController: (v32@0:8@16@24) @ 0x1ef3f4
+  + presentHalfScreenViewController:fromViewController: (v32@0:8@16@24) @ 0x1ef8e4
+  + presentViewController:fromViewController:withHeight: (v40@0:8@16@24d32) @ 0x1efc6c
+Class [32] PseudoDetentController : _OBJC_CLASS_$_UIPresentationController (methods: -13 +0, ivars: 3)
+  - initWithPresentedViewController:presentingViewController: (@32@0:8@16@24) @ 0x1f06fc
+  - dismissController (v16@0:8) @ 0x1f08f8
+  - frameOfPresentedViewInContainerView ({CGRect={CGPoint=dd}{CGSize=dd}}16@0:8) @ 0x1f095c
+  - containerViewWillLayoutSubviews (v16@0:8) @ 0x1f0a98
+  - presentationTransitionWillBegin (v16@0:8) @ 0x1f0b60
+  - dismissalTransitionWillBegin (v16@0:8) @ 0x1f0ec4
+  - heightCalculator (@?16@0:8) @ 0x1f104c
+  - setHeightCalculator: (v24@0:8@?16) @ 0x1f105c
+  - customHeight (d16@0:8) @ 0x1f1090
+  - setCustomHeight: (v24@0:8d16) @ 0x1f10a0
+  - dimmingView (@16@0:8) @ 0x1f10b0
+  - setDimmingView: (v24@0:8@16) @ 0x1f10c0
+  - .cxx_destruct (v16@0:8) @ 0x1f10d4
+  ivar _heightCalculator : @? (off=0x8, size=8)
+  ivar _customHeight : d (off=0x10, size=8)
+  ivar _dimmingView : @"UIView" (off=0x18, size=8)
+Class [33] PseudoDetentTransitioningDelegate : _OBJC_CLASS_$_NSObject (methods: -6 +0, ivars: 2)
+  - presentationControllerForPresentedViewController:presentingViewController:sourceViewController: (@40@0:8@16@24@32) @ 0x1f1860
+  - heightCalculator (@?16@0:8) @ 0x1f1930
+  - setHeightCalculator: (v24@0:8@?16) @ 0x1f1938
+  - customHeight (d16@0:8) @ 0x1f1968
+  - setCustomHeight: (v24@0:8d16) @ 0x1f1970
+  - .cxx_destruct (v16@0:8) @ 0x1f1990
+  ivar _heightCalculator : @? (off=0x8, size=8)
+  ivar _customHeight : d (off=0x10, size=8)
+Class [34] DVNLongPressDelegate : _OBJC_CLASS_$_NSObject (methods: -7 +0, ivars: 2)
+  - isTouchInSpeedZone: (B32@0:8{CGPoint=dd}16) @ 0x1f1aa4
+  - gestureRecognizer:shouldReceiveTouch: (B32@0:8@16@24) @ 0x1f1d28
+  - view (@16@0:8) @ 0x1f1dc0
+  - setView: (v24@0:8@16) @ 0x1f1dd8
+  - mode (q16@0:8) @ 0x1f1e0c
+  - setMode: (v24@0:8q16) @ 0x1f1e14
+  - .cxx_destruct (v16@0:8) @ 0x1f1e34
+  ivar _view : @"UIView" (off=0x8, size=8)
+  ivar _mode : q (off=0x10, size=8)
+Class [35] YTPPlayerHelper : _OBJC_CLASS_$_NSObject (methods: -0 +4, ivars: 0)
+  + getVideoID: (@24@0:8@16) @ 0x1f1f6c
+  + openVideoWithID: (v24@0:8@16) @ 0x1f232c
+  + openVideoWithID:handler: (v32@0:8@16@24) @ 0x1f2724
+  + openVideoWithID:viewController: (v32@0:8@16@24) @ 0x1f3058
+Class [36] FFMpegHelper : _OBJC_CLASS_$_NSObject (methods: -11 +1, ivars: 5)
+  + sharedInstance (@16@0:8) @ 0x1f3a68
+  - init (@16@0:8) @ 0x1f3b60
+  - statisticsCallback: (v24@0:8@16) @ 0x1f3e30
+  - mergeVideo:withAudio:captions:duration:completion: (v56@0:8@16@24@32q40@?48) @ 0x1f3f20
+  - getCommandWithVideoURL:audioURL:captionsURL:thumbnailURL:duration:outputURL: (@64@0:8@16@24@32@40q48@56) @ 0x1f56b4
+  - cutAudio:duration:completion: (v40@0:8@16q24@?32) @ 0x1f7644
+  - logCallback::: (v36@0:8q16i24@28) @ 0x1f8a60
+  - getCleanLog: (v24@0:8@16) @ 0x1f8a7c
+  - setActive (v16@0:8) @ 0x1f9184
+  - updateProgressDialog (v16@0:8) @ 0x1f91e4
+  - codeForCaps: (@24@0:8@16) @ 0x1f9574
+  - .cxx_destruct (v16@0:8) @ 0x1fc630
+  ivar _ffmpegQueue : @"NSObject<OS_dispatch_queue>" (off=0x8, size=8)
+  ivar _statistics : @"Statistics" (off=0x10, size=8)
+  ivar _toastView : @"ToastView" (off=0x18, size=8)
+  ivar _duration : q (off=0x20, size=8)
+  ivar _isProcessing : B (off=0x28, size=1)
+Class [37] SRTParser : _OBJC_CLASS_$_NSObject (methods: -12 +0, ivars: 8)
+  - init (@16@0:8) @ 0x1fd818
+  - parseXMLFromURL:forLanguage:videoID:completion: (v48@0:8@16@24@32@?40) @ 0x1fd908
+  - srtForLanguage:videoID:error: (@40@0:8@16@24^@32) @ 0x1fde5c
+  - parseTranscriptFromURL:completion: (v32@0:8@16@?24) @ 0x1fe8a4
+  - parser:didStartElement:namespaceURI:qualifiedName:attributes: (v56@0:8@16@24@32@40@48) @ 0x1fee8c
+  - parser:foundCharacters: (v32@0:8@16@24) @ 0x1ff154
+  - parser:didEndElement:namespaceURI:qualifiedName: (v48@0:8@16@24@32@40) @ 0x1ff190
+  - generateSRTWithText: (v24@0:8@16) @ 0x1ff384
+  - generateTranscriptWithText: (v24@0:8@16) @ 0x1ff640
+  - formatTime: (@24@0:8d16) @ 0x1ff7c0
+  - decodeHTMLСhars: (@24@0:8@16) @ 0x1ffa1c
+  - .cxx_destruct (v16@0:8) @ 0x200194
+  ivar _srtLines : @"NSMutableArray" (off=0x8, size=8)
+  ivar _currentText : @"NSMutableString" (off=0x10, size=8)
+  ivar _videoID : @"NSString" (off=0x18, size=8)
+  ivar _index : q (off=0x20, size=8)
+  ivar _start : d (off=0x28, size=8)
+  ivar _end : d (off=0x30, size=8)
+  ivar _duration : d (off=0x38, size=8)
+  ivar _isTranscript : B (off=0x40, size=1)
+Class [38] YTPDB : _OBJC_CLASS_$_NSObject (methods: -0 +8, ivars: 0)
+  + thanks (@16@0:8) @ 0x200cd8
+  + clip (@16@0:8) @ 0x203248
+  + report (@16@0:8) @ 0x20501c
+  + hype (@16@0:8) @ 0x207c98
+  + stopAds (@16@0:8) @ 0x20ad20
+  + supportedLanguages (@16@0:8) @ 0x20fd44
+  + langCodeForIndex: (@24@0:8q16) @ 0x21001c
+  + indexOfPreferredLanguage (Q16@0:8) @ 0x210508
+Class [39] YTPSleepTimer : _OBJC_CLASS_$_NSObject (methods: -36 +1, ivars: 7)
+  + sharedTimer (@16@0:8) @ 0x210c84
+  - timerQueue (@16@0:8) @ 0x210d7c
+  - isRunning (B16@0:8) @ 0x211018
+  - showOptions: (v24@0:8@16) @ 0x211090
+  - showTimeSelector (v16@0:8) @ 0x212468
+  - startForSeconds: (v24@0:8d16) @ 0x212a50
+  - startForEndOfVideo (v16@0:8) @ 0x212b44
+  - startTimer (v16@0:8) @ 0x212bfc
+  - stopWithFadeIfNeeded: (v24@0:8d16) @ 0x2132fc
+  - stopWithFadeDuration:stopAfter: (v32@0:8d16d24) @ 0x21344c
+  - stop (v16@0:8) @ 0x213804
+  - cancel (v16@0:8) @ 0x21383c
+  - cancelIfPlayerClosed (v16@0:8) @ 0x213848
+  - remainingSeconds (d16@0:8) @ 0x2138b0
+  - remainingSecondsForCurrentVideo (d16@0:8) @ 0x213a14
+  - secondsForDate: (d24@0:8@16) @ 0x213c0c
+  - formattedTime: (@24@0:8d16) @ 0x213e40
+  - getPlayerIfAvailable (@16@0:8) @ 0x213f88
+  - globalSlimBar (@16@0:8) @ 0x2142c8
+  - playerSlimBar (@16@0:8) @ 0x2145b8
+  - globalSlimBarVisibilityChange (v16@0:8) @ 0x2148dc
+  - playerSlimBarVisibilityChange (v16@0:8) @ 0x2149f8
+  - slimBarForStyle: (@24@0:8Q16) @ 0x214d8c
+  - barsForStyle: (@24@0:8Q16) @ 0x214dc4
+  - attributedTitle:image: (@32@0:8@16@24) @ 0x214f50
+  - applyTitle:image:color:toBar: (v48@0:8@16@24@32@40) @ 0x2151ec
+  - attachTapHandlerToBar: (v24@0:8@16) @ 0x215370
+  - removeTapHandlerOnBar: (v24@0:8@16) @ 0x215838
+  - onSlimBarTap: (v24@0:8@16) @ 0x215c34
+  - slimBarVisibilityChange: (v24@0:8Q16) @ 0x2165ac
+  - showSlimBarWithTitle:image:color:style: (v48@0:8@16@24@32Q40) @ 0x216650
+  - updateSlimBarTitle:style: (v32@0:8@16Q24) @ 0x2169d4
+  - hideSlimBarWithStyle: (v24@0:8Q16) @ 0x216dac
+  - pausePlayback (B16@0:8) @ 0x217538
+  - finishTimerAndCleanup (v16@0:8) @ 0x2178ac
+  - cleanup (v16@0:8) @ 0x2179e4
+  - .cxx_destruct (v16@0:8) @ 0x217c3c
+  ivar _timer : @"NSObject<OS_dispatch_source>" (off=0x8, size=8)
+  ivar _timerQueue : @"NSObject<OS_dispatch_queue>" (off=0x10, size=8)
+  ivar _icon : @"UIImage" (off=0x18, size=8)
+  ivar _mode : Q (off=0x20, size=8)
+  ivar _timerStyle : Q (off=0x28, size=8)
+  ivar _didStartFade : B (off=0x30, size=1)
+  ivar _endTimestamp : d (off=0x38, size=8)
+Class [40] RPCMedia : _OBJC_CLASS_$_NSObject (methods: -15 +1, ivars: 7)
+  + mediaWithPlayer: (@24@0:8@16) @ 0x21a32c
+  - videoID (@16@0:8) @ 0x21a74c
+  - setVideoID: (v24@0:8@16) @ 0x21a754
+  - title (@16@0:8) @ 0x21a784
+  - setTitle: (v24@0:8@16) @ 0x21a78c
+  - author (@16@0:8) @ 0x21a7bc
+  - setAuthor: (v24@0:8@16) @ 0x21a7c4
+  - isPaused (B16@0:8) @ 0x21a7f4
+  - setIsPaused: (v20@0:8B16) @ 0x21a7fc
+  - totalTime (d16@0:8) @ 0x21a81c
+  - setTotalTime: (v24@0:8d16) @ 0x21a824
+  - currentTime (d16@0:8) @ 0x21a844
+  - setCurrentTime: (v24@0:8d16) @ 0x21a84c
+  - thumbnailURL (@16@0:8) @ 0x21a86c
+  - setThumbnailURL: (v24@0:8@16) @ 0x21a874
+  - .cxx_destruct (v16@0:8) @ 0x21a8a4
+  ivar _isPaused : B (off=0x8, size=1)
+  ivar _videoID : @"NSString" (off=0x10, size=8)
+  ivar _title : @"NSString" (off=0x18, size=8)
+  ivar _author : @"NSString" (off=0x20, size=8)
+  ivar _totalTime : d (off=0x28, size=8)
+  ivar _currentTime : d (off=0x30, size=8)
+  ivar _thumbnailURL : @"NSString" (off=0x38, size=8)
+Class [41] YTPDiscordRPC : _OBJC_CLASS_$_NSObject (methods: -14 +2, ivars: 4)
+  + sharedPresence (@16@0:8) @ 0x21ad18
+  + checkLocalNetworkPermission: (v24@0:8@?16) @ 0x21ae10
+  - setServerURL: (v24@0:8@16) @ 0x21b1b4
+  - startIfPossible (v16@0:8) @ 0x21b804
+  - startRPC (v16@0:8) @ 0x21c38c
+  - updateTime (v16@0:8) @ 0x21c69c
+  - updateState (v16@0:8) @ 0x21c7e4
+  - clearPlayback (v16@0:8) @ 0x21c92c
+  - buildBody (@16@0:8) @ 0x21cbe8
+  - sendBody (v16@0:8) @ 0x21d50c
+  - _send: (v24@0:8@16) @ 0x21d6a0
+  - showAlertWithMessage:showSettingsButton: (v28@0:8@16B24) @ 0x21dd68
+  - media (@16@0:8) @ 0x21e39c
+  - setMedia: (v24@0:8@16) @ 0x21e3a4
+  - serverURL (@16@0:8) @ 0x21e3d8
+  - .cxx_destruct (v16@0:8) @ 0x21e3e0
+  ivar _currentVideoID : @"NSString" (off=0x8, size=8)
+  ivar _lastSendDate : @"NSDate" (off=0x10, size=8)
+  ivar _media : @"RPCMedia" (off=0x18, size=8)
+  ivar _serverURL : @"NSString" (off=0x20, size=8)
+Class [42] DVNImageViewController : _OBJC_CLASS_$_UIViewController (methods: -18 +0, ivars: 3)
+  - viewDidLoad (v16@0:8) @ 0x21f340
+  - setupNavbar (v16@0:8) @ 0x21f3a0
+  - setupViewer (v16@0:8) @ 0x2200c0
+  - viewForZoomingInScrollView: (@24@0:8@16) @ 0x2208a4
+  - viewDidLayoutSubviews (v16@0:8) @ 0x2208b4
+  - handleDoubleTap: (v24@0:8@16) @ 0x2209bc
+  - scrollViewDidZoom: (v24@0:8@16) @ 0x220b40
+  - scrollViewDidEndZooming:withView:atScale: (v40@0:8@16@24d32) @ 0x220b74
+  - scrollViewWillBeginZooming:withView: (v32@0:8@16@24) @ 0x220ba8
+  - adjustScrollViewInsets (v16@0:8) @ 0x220bdc
+  - adjustHorizontalInsetsWithImageWidth: (v24@0:8d16) @ 0x220cdc
+  - adjustVerticalInsetsWithImageHeight: (v24@0:8d16) @ 0x220dd4
+  - hapticFeedback (v16@0:8) @ 0x220ee8
+  - closeButtonTapped (v16@0:8) @ 0x220f5c
+  - share (v16@0:8) @ 0x220fb4
+  - fullImage (@16@0:8) @ 0x2212e4
+  - setFullImage: (v24@0:8@16) @ 0x2212f4
+  - .cxx_destruct (v16@0:8) @ 0x221308
+  ivar _scrollView : @"UIScrollView" (off=0x8, size=8)
+  ivar _imageView : @"UIImageView" (off=0x10, size=8)
+  ivar _fullImage : @"UIImage" (off=0x18, size=8)
+Class [43] BlurButton : _OBJC_CLASS_$_UIButton (methods: -2 +1, ivars: 1)
+  + createButtonWithImage:target:action:menu: (@48@0:8@16@24:32@40) @ 0x222978
+  - setHighlighted: (v20@0:8B16) @ 0x222cbc
+  - .cxx_destruct (v16@0:8) @ 0x222d40
+  ivar _buttonImageView : @"UIImageView" (off=0x8, size=8)
+Class [44] YTPSpeedMaster : _OBJC_CLASS_$_NSObject (methods: -6 +6, ivars: 10)
+  + sharedMaster (@16@0:8) @ 0x2230b4
+  + getPlayerIfAvailable (@16@0:8) @ 0x224de8
+  + currentPlaybackRate (d16@0:8) @ 0x225734
+  + playbackRateForPlayer: (d24@0:8@16) @ 0x2258a0
+  + setPlaybackRate:forPlayer: (v32@0:8d16@24) @ 0x225a18
+  + _applyPendingRateForPlayer: (v24@0:8@16) @ 0x225dd8
+  - manageSpeedMaster:playerOverlayVC: (v32@0:8@16@24) @ 0x2231ac
+  - speedArray (@16@0:8) @ 0x2248e8
+  - nearestIndexForRate: (q24@0:8d16) @ 0x224c78
+  - currentPlaybackRate (d16@0:8) @ 0x225124
+  - setPlaybackRate: (v24@0:8d16) @ 0x225244
+  - .cxx_destruct (v16@0:8) @ 0x226208
+  ivar _speedArray : @"NSArray" (off=0x8, size=8)
+  ivar _speedIndex : q (off=0x10, size=8)
+  ivar _minRate : d (off=0x18, size=8)
+  ivar _maxRate : d (off=0x20, size=8)
+  ivar _rateStep : d (off=0x28, size=8)
+  ivar _rateBeforeSpeedmaster : d (off=0x30, size=8)
+  ivar _startLocation : {CGPoint="x"d"y"d} (off=0x38, size=16)
+  ivar _gestureBaseRate : d (off=0x48, size=8)
+  ivar _gestureBaseIndex : q (off=0x50, size=8)
+  ivar _controller : @"YTMainAppVideoPlayerOverlayViewController" (off=0x58, size=8)
+Class [45] Dvbug : _OBJC_CLASS_$_NSObject (methods: -0 +8, ivars: 0)
+  + instanceForObject:name: (@32@0:8@16@24) @ 0x22739c
+  + observeIvar:name: (v32@0:8@16@24) @ 0x22783c
+  + getObservedIvar:name: (@32@0:8@16@24) @ 0x228160
+  + setObservedIvar:name:value: (v40@0:8@16@24@32) @ 0x228674
+  + getObservedIntIvar:name: (q32@0:8@16@24) @ 0x228b54
+  + getObservedIvarLongLong:name: (q32@0:8@16@24) @ 0x2290f4
+  + getObservedBoolIvar:name: (B32@0:8@16@24) @ 0x229604
+  + setObservedBoolIvar:name:value: (v36@0:8@16@24B32) @ 0x229b7c
+Class [46] YTLHelper : _OBJC_CLASS_$_NSObject (methods: -13 +9, ivars: 13)
+  + YTImageNamed: (@24@0:8@16) @ 0x22f4c0
+  + YTLImageNamed: (@24@0:8@16) @ 0x22f6b4
+  + isConnectedToWiFi (B16@0:8) @ 0x22f8b8
+  + createYTQTMButton:accessibilityLabel:buttonLabel:icon:selector: (@56@0:8@16@24@32@40:48) @ 0x22f94c
+  + createYTQTMButton:accessibilityLabel:buttonLabel:icon:size:selector: (@72@0:8@16@24@32@40{CGSize=dd}48:64) @ 0x22fa24
+  + createOverlayButton:accessibilityLabel:buttonLabel:icon:selector: (@56@0:8@16@24@32@40:48) @ 0x22fdf8
+  + downloadImageFromURL:download: (v28@0:8@16B24) @ 0x2302b0
+  + genImageFromLayer:backgroundColor:completionHandler: (v40@0:8@16@24@?32) @ 0x2311f0
+  + resizeImage:toSize: (@32@0:8@16d24) @ 0x231388
+  - init (@16@0:8) @ 0x22aa5c
+  - downloadVideoWithUrl:audioUrl:fileName:format:videoID:videoSize:audioSize:duration:captions: (v88@0:8@16@24@32@40@48Q56Q64Q72@80) @ 0x22ac34
+  - downloadAudioWithUrl:fileName:videoID:audioSize:duration: (v56@0:8@16@24@32Q40Q48) @ 0x22b1c0
+  - downloadProgress: (v20@0:8f16) @ 0x22b770
+  - downloadDidFinish:fileName: (v32@0:8@16@24) @ 0x22bbb4
+  - downloadDidFailureWithError: (v24@0:8@16) @ 0x22d4cc
+  - saveMedia: (v24@0:8@16) @ 0x22d744
+  - shareMedia: (v24@0:8@16) @ 0x22dcb8
+  - cleanup (v16@0:8) @ 0x22e1a4
+  - askForAction: (v24@0:8@16) @ 0x22e364
+  - resizeImage:toSize: (@32@0:8@16d24) @ 0x22ef58
+  - imageNamed: (@24@0:8@16) @ 0x22f20c
+  - .cxx_destruct (v16@0:8) @ 0x2315d8
+  ivar _illegalChars : @"NSCharacterSet" (off=0x8, size=8)
+  ivar _downloader : @"YTPDownloader" (off=0x10, size=8)
+  ivar _toastView : @"ToastView" (off=0x18, size=8)
+  ivar _title : @"NSString" (off=0x20, size=8)
+  ivar _videoID : @"NSString" (off=0x28, size=8)
+  ivar _format : @"NSString" (off=0x30, size=8)
+  ivar _duration : Q (off=0x38, size=8)
+  ivar _isVideoDownloaded : B (off=0x40, size=1)
+  ivar _isAudioOnly : B (off=0x41, size=1)
+  ivar _videoUrl : @"NSURL" (off=0x48, size=8)
+  ivar _audioUrl : @"NSURL" (off=0x50, size=8)
+  ivar _captionsUrl : @"NSURL" (off=0x58, size=8)
+  ivar _audioSize : Q (off=0x60, size=8)
+Class [47] YTPSpeedPopupController : _OBJC_CLASS_$_UIViewController (methods: -15 +1, ivars: 3)
+  + speedController (@16@0:8) @ 0x2352e4
+  - presentFromViewController: (v24@0:8@16) @ 0x235334
+  - viewDidAppear: (v20@0:8B16) @ 0x23537c
+  - viewDidLoad (v16@0:8) @ 0x2354ec
+  - calculateWidth (d16@0:8) @ 0x235cec
+  - bottomConstant (d16@0:8) @ 0x235dbc
+  - isiPad (B16@0:8) @ 0x235de8
+  - hasNotch (B16@0:8) @ 0x23611c
+  - dismiss (v16@0:8) @ 0x2361c0
+  - handlePan: (v24@0:8@16) @ 0x236414
+  - gestureRecognizer:shouldReceiveTouch: (B32@0:8@16@24) @ 0x236924
+  - speedView (@16@0:8) @ 0x236994
+  - setSpeedView: (v24@0:8@16) @ 0x2369a4
+  - bottomConstraint (@16@0:8) @ 0x2369e0
+  - setBottomConstraint: (v24@0:8@16) @ 0x2369f0
+  - .cxx_destruct (v16@0:8) @ 0x236a2c
+  ivar _dismissVelocity : d (off=0x8, size=8)
+  ivar _speedView : @"YTPSpeedControlView" (off=0x10, size=8)
+  ivar _bottomConstraint : @"NSLayoutConstraint" (off=0x18, size=8)
+Class [48] YTPSpeedControlView : _OBJC_CLASS_$_UIView (methods: -11 +1, ivars: 4)
+  + speedControls (@16@0:8) @ 0x237ae8
+  - initWithFrame: (@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16) @ 0x237b20
+  - setupUI (v16@0:8) @ 0x237d28
+  - makeStepButton: (@24@0:8@16) @ 0x238bd4
+  - makePresetButton: (@24@0:8@16) @ 0x238eb0
+  - sliderChanged: (v24@0:8@16) @ 0x239258
+  - sliderTapped: (v24@0:8@16) @ 0x2392e8
+  - minusTapped (v16@0:8) @ 0x2393f0
+  - plusTapped (v16@0:8) @ 0x2394a4
+  - presetTapped: (v24@0:8@16) @ 0x23953c
+  - updateLabel: (v20@0:8f16) @ 0x2395cc
+  - .cxx_destruct (v16@0:8) @ 0x239748
+  ivar _slider : @"UISlider" (off=0x8, size=8)
+  ivar _valueLabel : @"UILabel" (off=0x10, size=8)
+  ivar _presets : @"NSArray" (off=0x18, size=8)
+  ivar _step : f (off=0x20, size=4)
+Class [49] PlayerToast : _OBJC_CLASS_$_UIView (methods: -15 +1, ivars: 11)
+  + sharedToast (@16@0:8) @ 0x23abbc
+  - init (@16@0:8) @ 0x23acb4
+  - showPlayerToastWithText:value:style:isCompact: (v44@0:8@16d24q32B40) @ 0x23b47c
+  - prepareForPresentation (v16@0:8) @ 0x23b90c
+  - updateToastText:value: (v32@0:8@16d24) @ 0x23b990
+  - setProgress: (v24@0:8d16) @ 0x23bc58
+  - hideToast (v16@0:8) @ 0x23bda8
+  - setupConstraints (v16@0:8) @ 0x23bf38
+  - clearConstraints (v16@0:8) @ 0x23c8a4
+  - imgForVal: (@24@0:8d16) @ 0x23c8ec
+  - subLabelForVal:style: (@32@0:8d16q24) @ 0x23d3e4
+  - setupSubForStyle: (v24@0:8q16) @ 0x23d624
+  - setValue:forEventWithStyle: (v32@0:8d16q24) @ 0x23d6a8
+  - sourceView (@16@0:8) @ 0x23d8f4
+  - isLandscape (B16@0:8) @ 0x23d978
+  - .cxx_destruct (v16@0:8) @ 0x23da40
+  ivar _isCompact : B (off=0x8, size=1)
+  ivar _style : q (off=0x10, size=8)
+  ivar _activeConstraints : @"NSMutableArray" (off=0x18, size=8)
+  ivar _containerView : @"UIView" (off=0x20, size=8)
+  ivar _toastView : @"UIVisualEffectView" (off=0x28, size=8)
+  ivar _toastImage : @"UIImageView" (off=0x30, size=8)
+  ivar _toastLabel : @"UILabel" (off=0x38, size=8)
+  ivar _toastSubLabel : @"UILabel" (off=0x40, size=8)
+  ivar _toastProgress : @"UIView" (off=0x48, size=8)
+  ivar _progressLayer : @"CAShapeLayer" (off=0x50, size=8)
+  ivar _volumeHUD : @"CustomHUD" (off=0x58, size=8)
+Class [50] CustomHUD : _OBJC_CLASS_$_NSObject (methods: -9 +0, ivars: 1)
+  - init (@16@0:8) @ 0x23f450
+  - addToController (v16@0:8) @ 0x23f504
+  - removeFromController (v16@0:8) @ 0x23f570
+  - setVolumeLevel: (v20@0:8f16) @ 0x23f5dc
+  - volumeLevel (f16@0:8) @ 0x23f614
+  - windowSceneForVolumeDisplay (@16@0:8) @ 0x23f624
+  - volumeAudioCategory (@16@0:8) @ 0x23f6a8
+  - controller (@16@0:8) @ 0x23f6b8
+  - .cxx_destruct (v16@0:8) @ 0x23f6c0
+  ivar _controller : @"MPVolumeController" (off=0x8, size=8)
+Class [51] ArchDetect : _OBJC_CLASS_$_NSObject (methods: -0 +4, ivars: 0)
+  + initialize (v16@0:8) @ 0xab3054
+  + getCpuArch (@16@0:8) @ 0xab3090
+  + getArch (@16@0:8) @ 0xab3354
+  + isLTSBuild (i16@0:8) @ 0xab33a8
+Class [52] AtomicLong : _OBJC_CLASS_$_NSObject (methods: -3 +0, ivars: 2)
+  - initWithInitialValue: (@24@0:8q16) @ 0xab33b0
+  - incrementAndGet (q16@0:8) @ 0xab33fc
+  - .cxx_destruct (v16@0:8) @ 0xab3460
+  ivar lock : @"NSRecursiveLock" (off=0x8, size=8)
+  ivar value : q (off=0x10, size=8)
+Class [53] FFmpegExecution : _OBJC_CLASS_$_NSObject (methods: -5 +0, ivars: 3)
+  - initWithExecutionId:andArguments: (@32@0:8q16@24) @ 0xadd3c0
+  - getStartTime (@16@0:8) @ 0xadd4a4
+  - getExecutionId (q16@0:8) @ 0xadd4b4
+  - getCommand (@16@0:8) @ 0xadd4c4
+  - .cxx_destruct (v16@0:8) @ 0xadd4d4
+  ivar startTime : @"NSDate" (off=0x8, size=8)
+  ivar executionId : q (off=0x10, size=8)
+  ivar command : @"NSString" (off=0x18, size=8)
+Class [54] MobileFFmpeg : _OBJC_CLASS_$_NSObject (methods: -0 +14, ivars: 0)
+  + initialize (v16@0:8) @ 0xadd514
+  + executeWithId:andArguments: (i32@0:8q16@24) @ 0xadd69c
+  + executeWithArguments: (i24@0:8@16) @ 0xadd938
+  + executeWithArgumentsAsync:withCallback: (i32@0:8@16@24) @ 0xadd950
+  + executeWithArgumentsAsync:withCallback:andDispatchQueue: (i40@0:8@16@24@32) @ 0xadd9e8
+  + execute: (i24@0:8@16) @ 0xaddba4
+  + executeAsync:withCallback: (i32@0:8@16@24) @ 0xaddbfc
+  + executeAsync:withCallback:andDispatchQueue: (i40@0:8@16@24@32) @ 0xaddc94
+  + execute:delimiter: (i32@0:8@16@24) @ 0xaddd58
+  + cancel (v16@0:8) @ 0xadddec
+  + cancel: (v24@0:8q16) @ 0xadddf4
+  + parseArguments: (@24@0:8@16) @ 0xadddfc
+  + argumentsToString: (@24@0:8@16) @ 0xade084
+  + listExecutions (@16@0:8) @ 0xade1a4
+Class [55] CallbackData : _OBJC_CLASS_$_NSObject (methods: -14 +0, ivars: 11)
+  - initWithId:logLevel:data: (@36@0:8q16i24@28) @ 0xade210
+  - initWithId:videoFrameNumber:fps:quality:size:time:bitrate:speed: (@64@0:8q16i24f28f32q36i44d48d56) @ 0xade2d0
+  - getType (i16@0:8) @ 0xade3b4
+  - getExecutionId (q16@0:8) @ 0xade3c4
+  - getLogLevel (i16@0:8) @ 0xade3d4
+  - getLogData (@16@0:8) @ 0xade3e4
+  - getStatisticsFrameNumber (i16@0:8) @ 0xade3f4
+  - getStatisticsFps (f16@0:8) @ 0xade404
+  - getStatisticsQuality (f16@0:8) @ 0xade414
+  - getStatisticsSize (q16@0:8) @ 0xade424
+  - getStatisticsTime (i16@0:8) @ 0xade434
+  - getStatisticsBitrate (d16@0:8) @ 0xade444
+  - getStatisticsSpeed (d16@0:8) @ 0xade454
+  - .cxx_destruct (v16@0:8) @ 0xade464
+  ivar type : i (off=0x8, size=4)
+  ivar executionId : q (off=0x10, size=8)
+  ivar logLevel : i (off=0x18, size=4)
+  ivar logData : @"NSString" (off=0x20, size=8)
+  ivar statisticsFrameNumber : i (off=0x28, size=4)
+  ivar statisticsFps : f (off=0x2c, size=4)
+  ivar statisticsQuality : f (off=0x30, size=4)
+  ivar statisticsSize : q (off=0x38, size=8)
+  ivar statisticsTime : i (off=0x40, size=4)
+  ivar statisticsBitrate : d (off=0x48, size=8)
+  ivar statisticsSpeed : d (off=0x50, size=8)
+Class [56] MobileFFmpegConfig : _OBJC_CLASS_$_NSObject (methods: -0 +23, ivars: 0)
+  + initialize (v16@0:8) @ 0xadf030
+  + enableRedirection (v16@0:8) @ 0xadf478
+  + disableRedirection (v16@0:8) @ 0xadf528
+  + getLogLevel (i16@0:8) @ 0xadf5a8
+  + setLogLevel: (v20@0:8i16) @ 0xadf5b4
+  + logLevelToString: (@20@0:8i16) @ 0xadf5c0
+  + setLogDelegate: (v24@0:8@16) @ 0xadf6b4
+  + setStatisticsDelegate: (v24@0:8@16) @ 0xadf6c4
+  + getLastReceivedStatistics (@16@0:8) @ 0xadf6d4
+  + resetStatistics (v16@0:8) @ 0xadf6e0
+  + setFontconfigConfigurationPath: (v24@0:8@16) @ 0xadf720
+  + setFontDirectory:with: (v32@0:8@16@24) @ 0xadf788
+  + getBuildConf (@16@0:8) @ 0xadfda4
+  + getPackageName (@16@0:8) @ 0xadfdc0
+  + getExternalLibraries (@16@0:8) @ 0xae06ec
+  + registerNewFFmpegPipe (@16@0:8) @ 0xae08c4
+  + closeFFmpegPipe: (v24@0:8@16) @ 0xae09fc
+  + getFFmpegVersion (@16@0:8) @ 0xae0a7c
+  + getVersion (@16@0:8) @ 0xae0a98
+  + getBuildDate (@16@0:8) @ 0xae0b14
+  + getLastReturnCode (i16@0:8) @ 0xae0b90
+  + getLastCommandOutput (@16@0:8) @ 0xae0b9c
+  + ignoreSignal: (v20@0:8i16) @ 0xae0ba8
+Class [57] Statistics : _OBJC_CLASS_$_NSObject (methods: -11 +0, ivars: 8)
+  - init (@16@0:8) @ 0xae0c14
+  - initWithId:videoFrameNumber:fps:quality:size:time:bitrate:speed: (@64@0:8q16i24f28f32q36i44d48d56) @ 0xae0ca8
+  - update: (v24@0:8@16) @ 0xae0d7c
+  - getExecutionId (q16@0:8) @ 0xae0f3c
+  - getVideoFrameNumber (i16@0:8) @ 0xae0f4c
+  - getVideoFps (f16@0:8) @ 0xae0f5c
+  - getVideoQuality (f16@0:8) @ 0xae0f6c
+  - getSize (q16@0:8) @ 0xae0f7c
+  - getTime (i16@0:8) @ 0xae0f8c
+  - getBitrate (d16@0:8) @ 0xae0f9c
+  - getSpeed (d16@0:8) @ 0xae0fac
+  ivar executionId : q (off=0x8, size=8)
+  ivar videoFrameNumber : i (off=0x10, size=4)
+  ivar videoFps : f (off=0x14, size=4)
+  ivar videoQuality : f (off=0x18, size=4)
+  ivar size : q (off=0x20, size=8)
+  ivar time : i (off=0x28, size=4)
+  ivar bitrate : d (off=0x30, size=8)
+  ivar speed : d (off=0x38, size=8)
