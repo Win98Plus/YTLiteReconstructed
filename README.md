@@ -95,7 +95,6 @@ The repository includes build support for Theos and Xcode.
 - An appropriate iOS SDK.
 - A supported ARM64 build environment.
 - Xcode for the Xcode project build.
-- Python 3 for the supplied Python scripts.
 
 ### Build with Theos
 
@@ -148,4 +147,4 @@ This repository is an independent project based on the original YTLite binary. C
 
 This project is not affiliated with or endorsed by Google, YouTube or the original YTLite author.
 
-It is provided for research, code review and educational purposes. The recovered source code and build files are provided without a guarantee of compatibility, correctness or continued support.
+It is provided for research, code review and educational purposes. The source code and build files are provided without a guarantee of compatibility, correctness or continued support.
